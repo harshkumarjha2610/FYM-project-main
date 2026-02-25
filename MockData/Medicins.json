@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Paracetamol 500mg",
+    "price": 2.99,
+    "manufacturer": "PharmaCare Ltd.",
+    "inStock": true,
+    "category": "Pain Relief"
+  },
+  {
+    "name": "Amoxicillin 250mg",
+    "price": 5.49,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Antibiotic"
+  },
+  {
+    "name": "Cetirizine 10mg",
+    "price": 3.25,
+    "manufacturer": "AllergyFree Inc.",
+    "inStock": false,
+    "category": "Antihistamine"
+  },
+  {
+    "name": "Ibuprofen 400mg",
+    "price": 4.1,
+    "manufacturer": "MediCore Labs",
+    "inStock": true,
+    "category": "Anti-inflammatory"
+  },
+  {
+    "name": "Metformin 500mg",
+    "price": 6.75,
+    "manufacturer": "Glucare Pharma",
+    "inStock": true,
+    "category": "Diabetes"
+  },
+  {
+    "name": "Omeprazole 20mg",
+    "price": 7.2,
+    "manufacturer": "DigestWell Labs",
+    "inStock": false,
+    "category": "Gastrointestinal"
+  }
+]
