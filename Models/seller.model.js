@@ -160,7 +160,7 @@ const sellerSchema = new mongoose.Schema(
     // ✅ DISCOUNT OFFERING - ADDED HERE
     discount: {
       type: Number,
-      enum: [5, 10, 12, 15],
+      enum: [0, 5, 10, 12, 15, 20],
       required: false,
       min: 0,
       max: 100,
