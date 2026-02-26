@@ -128,6 +128,7 @@ console.log("✅ POST / route registered (buyer auth + file upload)");
 
 // Get ALL orders (requires seller authentication)
 router.get("/", verifySeller, orderController.getOrders);
+router.get("/accepted", verifySeller, orderController.getAcceptedOrders);
 console.log("✅ GET / route registered (seller auth)");
 
 // Get orders by buyer ID (requires buyer authentication)

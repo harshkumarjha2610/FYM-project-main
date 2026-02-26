@@ -289,32 +289,75 @@
 const Order = require("../Models/order.js");
 const Seller = require("../Models/seller.model.js");
 
-const radius = [2000, 5000, 7000, 10000, 100000, 100000];
+const options = [
+  { r: 2000, discount: [15, 20] },
+  { r: 5000, discount: [15, 20] },
+  { r: 2000, discount: [10, 12, 15, 20] },
+  { r: 5000, discount: [10, 12, 15, 20] },
+  { r: 7000, discount: [0] },
+];
+
+// async function notifySellers(order, longitude, latitude, io) {
+//   try {
+//     for (const r of radius) {
+//       const freshOrder = await Order.findById(order._id);
+//       if (freshOrder.status === "accepted") break;
+
+//       const sellers = await Seller.find({
+//         location: {
+//           $near: {
+//             $geometry: { type: "Point", coordinates: [longitude, latitude] },
+//             $maxDistance: r,
+//           },
+//         },
+//       });
+
+//       const now = new Date();
+//       console.log("Time: ", now);
+//       console.log("Sellers: ", sellers.length);
+
+//       sellers.forEach(s => {
+//         io.to(`seller_${s._id}`).emit("newOrder", order);
+//       });
+
+//       await new Promise(resolve => setTimeout(resolve, 60000));
+//     }
+//   } catch (err) {
+//     console.error("Seller notify error:", err);
+//   }
+// }
 
 async function notifySellers(order, longitude, latitude, io) {
   try {
-    for (const r of radius) {
+    for (const option of options) {
       const freshOrder = await Order.findById(order._id);
       if (freshOrder.status === "accepted") break;
 
-      const sellers = await Seller.find({
+      const query = {
         location: {
           $near: {
             $geometry: { type: "Point", coordinates: [longitude, latitude] },
-            $maxDistance: r,
+            $maxDistance: option.r,
           },
         },
-      });
+      };
+
+      if (option.discount.includes(0)) {
+      } else {
+        query.discount = { $in: option.discount };
+      }
+
+      const sellers = await Seller.find(query);
 
       const now = new Date();
-      console.log("Time: ", now);
-      console.log("Sellers: ", sellers.length);
+      console.log(`Time: ${now}, Radius: ${option.r}m, Discounts: ${option.discount}`);
+      console.log("Sellers found: ", sellers.length);
 
       sellers.forEach(s => {
         io.to(`seller_${s._id}`).emit("newOrder", order);
       });
 
-      await new Promise(resolve => setTimeout(resolve, 10000));
+      await new Promise(resolve => setTimeout(resolve, 60000));
     }
   } catch (err) {
     console.error("Seller notify error:", err);
@@ -432,6 +475,18 @@ exports.getOrders = async (req, res) => {
   try {
     console.log("📥 Fetching all orders...");
     const orders = await Order.find().sort({ createdAt: -1 });
+    console.log(`✅ Found ${orders.length} orders`);
+    res.status(200).json(orders);
+  } catch (error) {
+    console.error("❌ Error in getOrders:", error);
+    res.status(500).json({ message: "Internal server error" });
+  }
+};
+
+exports.getAcceptedOrders = async (req, res) => {
+  try {
+    console.log("📥 Fetching accepted orders...");
+    const orders = await Order.find({ status: "accepted", seller: req.seller.id }).sort({ createdAt: -1 });
     console.log(`✅ Found ${orders.length} orders`);
     res.status(200).json(orders);
   } catch (error) {
