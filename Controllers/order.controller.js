@@ -295,6 +295,7 @@ const options = [
   { r: 2000, discount: [10, 12, 15, 20] },
   { r: 5000, discount: [10, 12, 15, 20] },
   { r: 7000, discount: [0] },
+  { r: 200000, discount: [0, 5, 10, 12, 15, 20] },
 ];
 
 // async function notifySellers(order, longitude, latitude, io) {
