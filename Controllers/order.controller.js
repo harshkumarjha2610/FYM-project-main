@@ -289,15 +289,6 @@
 const Order = require("../Models/order.js");
 const Seller = require("../Models/seller.model.js");
 
-const options = [
-  { r: 2000, discount: [15, 20] },
-  { r: 5000, discount: [15, 20] },
-  { r: 2000, discount: [10, 12, 15, 20] },
-  { r: 5000, discount: [10, 12, 15, 20] },
-  { r: 7000, discount: [0] },
-  { r: 200000, discount: [0, 5, 10, 12, 15, 20] },
-];
-
 // async function notifySellers(order, longitude, latitude, io) {
 //   try {
 //     for (const r of radius) {
@@ -328,6 +319,16 @@ const options = [
 //   }
 // }
 
+const options = [
+  { r: 2000, discount: [15, 20] },
+  { r: 5000, discount: [15, 20] },
+  { r: 2000, discount: [10, 12, 15, 20] },
+  { r: 5000, discount: [10, 12, 15, 20] },
+  { r: 7000, discount: [0] },
+  { r: 200000, discount: [0, 5, 10, 12, 15, 20] },
+];
+
+
 async function notifySellers(order, longitude, latitude, io) {
   try {
     for (const option of options) {
@@ -343,8 +344,7 @@ async function notifySellers(order, longitude, latitude, io) {
         },
       };
 
-      if (option.discount.includes(0)) {
-      } else {
+      if (!option.discount.includes(0)) {
         query.discount = { $in: option.discount };
       }
 
