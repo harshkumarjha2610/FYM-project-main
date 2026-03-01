@@ -363,7 +363,7 @@ async function notifySellers(order, longitude, latitude, io) {
         io.to(`seller_${s._id}`).emit("newOrder", order);
       });
 
-      await new Promise(resolve => setTimeout(resolve, 6000));
+      await new Promise(resolve => setTimeout(resolve, 60000));
     }
   } catch (err) {
     console.error("Seller notify error:", err);
