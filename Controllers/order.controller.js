@@ -289,6 +289,8 @@
 const Order = require("../Models/order.js");
 const Seller = require("../Models/seller.model.js");
 
+// const radius = [2000, 5000, 7000, 10000];
+
 // async function notifySellers(order, longitude, latitude, io) {
 //   try {
 //     for (const r of radius) {
@@ -349,16 +351,19 @@ async function notifySellers(order, longitude, latitude, io) {
       }
 
       const sellers = await Seller.find(query);
+      console.log("Sellers found(number): ", sellers.length);
 
       const now = new Date();
       console.log(`Time: ${now}, Radius: ${option.r}m, Discounts: ${option.discount}`);
-      console.log("Sellers found: ", sellers.length);
+      for(const seller of sellers){
+        console.log("Seller: ", { name: seller.pharmacyName, discount: seller.discount });
+      }
 
       sellers.forEach(s => {
         io.to(`seller_${s._id}`).emit("newOrder", order);
       });
 
-      await new Promise(resolve => setTimeout(resolve, 60000));
+      await new Promise(resolve => setTimeout(resolve, 6000));
     }
   } catch (err) {
     console.error("Seller notify error:", err);

@@ -36,7 +36,7 @@ const sellerSchema = new mongoose.Schema(
     gstNumber: {
       type: String,
       required: false,
-      unique: true,
+      // unique: true,
       uppercase: true,
       trim: true,
       validate: {
@@ -259,7 +259,7 @@ sellerSchema.pre("save", function (next) {
 // Indexes
 sellerSchema.index({ email: 1 });
 sellerSchema.index({ mobile: 1 });
-sellerSchema.index({ gstNumber: 1 });
+// sellerSchema.index({ gstNumber: 1 });
 sellerSchema.index({ verificationStatus: 1 });
 sellerSchema.index({ isActive: 1 });
 sellerSchema.index({ location: "2dsphere" });
