@@ -19,7 +19,10 @@ const orderSchema = new mongoose.Schema({
     type: Date,
     default: null
   },
-  // ✅ END NEW FIELDS
+  rejectedBy: [{
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'Seller'
+  }],
   items: [{
     medicineId: {
       type: String,

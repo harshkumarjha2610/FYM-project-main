@@ -510,8 +510,10 @@ const corsOptions = {
     "http://localhost:3000",
     "http://192.168.1.3:8081",
     "http://192.168.1.5:8081",
+    "http://192.168.1.9:8081",
     "http://192.168.1.3:3000",
     "http://192.168.1.5:3000",
+    "http://192.168.1.9:3000",
     "https://rambackend-1-qmpn.onrender.com",
     // Add your production domain if different
   ],
@@ -711,6 +713,11 @@ io.on("connection", (socket) => {
   socket.on("joinBuyer", (buyerId) => {
     socket.join(`buyer_${buyerId}`);
     console.log(`✅ Buyer ${buyerId} joined room`);
+  });
+
+  socket.on("joinSeller", (sellerId) => {
+    socket.join(`seller_${sellerId}`);
+    console.log(`✅ Seller ${sellerId} joined room`);
   });
 
   socket.on("disconnect", (reason) => {

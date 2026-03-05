@@ -330,6 +330,21 @@ const options = [
   { r: 200000, discount: [0, 5, 10, 12, 15, 20] },
 ];
 
+// Interval (in ms) between each notifySellers tier
+const TIER_INTERVAL_MS = 6000;
+
+// Haversine formula: returns distance in meters between two lat/lng pairs
+function haversineDistance(lat1, lon1, lat2, lon2) {
+  const R = 6371000; // Earth radius in meters
+  const toRad = (x) => (x * Math.PI) / 180;
+  const dLat = toRad(lat2 - lat1);
+  const dLon = toRad(lon2 - lon1);
+  const a =
+    Math.sin(dLat / 2) ** 2 +
+    Math.cos(toRad(lat1)) * Math.cos(toRad(lat2)) * Math.sin(dLon / 2) ** 2;
+  return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+}
+
 
 async function notifySellers(order, longitude, latitude, io) {
   try {
@@ -363,7 +378,7 @@ async function notifySellers(order, longitude, latitude, io) {
         io.to(`seller_${s._id}`).emit("newOrder", order);
       });
 
-      await new Promise(resolve => setTimeout(resolve, 60000));
+      await new Promise(resolve => setTimeout(resolve, 6000));
     }
   } catch (err) {
     console.error("Seller notify error:", err);
@@ -475,14 +490,63 @@ exports.createOrder = async (req, res) => {
 };
 
 // -------------------------------------------------------------------
-// Get all orders (for debugging / admin use)
+// Get orders filtered by seller's radius & discount tier
 // -------------------------------------------------------------------
 exports.getOrders = async (req, res) => {
   try {
-    console.log("📥 Fetching all orders...");
-    const orders = await Order.find().sort({ createdAt: -1 });
-    console.log(`✅ Found ${orders.length} orders`);
-    res.status(200).json(orders);
+    const seller = req.sellerDocument; // full Seller document from verifySeller middleware
+
+    if (!seller || !seller.location || !seller.location.coordinates) {
+      console.error("❌ Seller location data missing");
+      return res.status(400).json({ message: "Seller location not configured" });
+    }
+
+    const [sellerLng, sellerLat] = seller.location.coordinates;
+    const sellerDiscount = seller.discount || 0;
+
+    console.log(`📥 Fetching filtered orders for seller: ${seller.pharmacyName} (discount: ${sellerDiscount}%)`);
+
+    // Fetch only pending orders from the last 10 minutes, excluding orders this seller already rejected
+    const tenMinutesAgo = new Date(Date.now() - 10 * 60 * 1000);
+    const pendingOrders = await Order.find({
+      status: "pending",
+      createdAt: { $gte: tenMinutesAgo },
+      rejectedBy: { $nin: [seller._id] },
+    }).sort({ createdAt: -1 });
+
+    const now = Date.now();
+
+    // Filter: an order is visible to this seller if they qualify under
+    // any options tier that has been unlocked based on elapsed time
+    const filtered = pendingOrders.filter((order) => {
+      if (!order.location || !order.location.coordinates) return false;
+
+      const [orderLng, orderLat] = order.location.coordinates;
+      const dist = haversineDistance(orderLat, orderLng, sellerLat, sellerLng);
+
+      const elapsed = now - new Date(order.createdAt).getTime();
+      const tierIndex = Math.min(
+        Math.floor(elapsed / TIER_INTERVAL_MS),
+        options.length - 1
+      );
+
+      // Check all unlocked tiers (0 .. tierIndex)
+      for (let i = 0; i <= tierIndex; i++) {
+        const opt = options[i];
+
+        // Distance check
+        if (dist > opt.r) continue;
+
+        // Discount check: discount [0] means "any discount" (no filter)
+        if (opt.discount.includes(0) || opt.discount.includes(sellerDiscount)) {
+          return true;
+        }
+      }
+      return false;
+    });
+
+    console.log(`✅ ${filtered.length}/${pendingOrders.length} orders match seller's radius/discount`);
+    res.status(200).json(filtered);
   } catch (error) {
     console.error("❌ Error in getOrders:", error);
     res.status(500).json({ message: "Internal server error" });
@@ -588,15 +652,20 @@ exports.sellerRespondToOrder = async (req, res) => {
     }
 
     // Update order
-    const newStatus = finalAction === "accept" ? "accepted" : "rejected";
-    order.status = newStatus;
-    order.sellerId = sellerId;
-    order.seller = sellerId;
-    order.respondedAt = new Date();
+    if (finalAction === "accept") {
+      order.status = "accepted";
+      order.sellerId = sellerId;
+      order.seller = sellerId;
+      order.respondedAt = new Date();
+    } else {
+      // Per-seller rejection: keep status "pending" so other sellers can still see it
+      if (!order.rejectedBy) order.rejectedBy = [];
+      order.rejectedBy.push(sellerId);
+    }
     
     await order.save();
 
-    console.log(`✅ Order ${orderId} updated to ${order.status}`);
+    console.log(`✅ Order ${orderId} ${finalAction === 'accept' ? 'accepted' : 'rejected by seller ' + sellerId}`);
 
     // Notify buyer
     if (io) {
@@ -611,7 +680,7 @@ exports.sellerRespondToOrder = async (req, res) => {
 
     res.status(200).json({ 
       success: true,
-      message: `Order ${newStatus} successfully`, 
+      message: `Order ${finalAction === 'accept' ? 'accepted' : 'rejected'} successfully`, 
       order: order
     });
 
