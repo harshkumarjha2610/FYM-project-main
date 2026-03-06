@@ -77,6 +77,10 @@ const orderSchema = new mongoose.Schema({
   createdAt: {
     type: Date,
     default: Date.now
+  },
+  deliveryAddress: {
+    type: String,
+    required: false
   }
 }, {
   timestamps: true
