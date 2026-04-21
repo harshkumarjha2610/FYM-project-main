@@ -2,7 +2,8 @@ const mongoose = require('mongoose');
 
 const orderSchema = new mongoose.Schema({
   buyerId: {
-    type: String,
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'Buyer',
     required: true
   },
   // ✅ ADD THESE FIELDS
@@ -71,8 +72,12 @@ const orderSchema = new mongoose.Schema({
   },
   status: {
     type: String,
-    enum: ['pending', 'accepted', 'rejected', 'confirmed', 'shipped', 'delivered', 'cancelled'], // ✅ Added 'accepted' and 'rejected'
+    enum: ['pending', 'accepted', 'rejected', 'confirmed', 'shipped', 'delivered', 'cancelled', 'scheduled'], // ✅ Added 'scheduled'
     default: 'pending'
+  },
+  scheduledAt: {
+    type: Date,
+    default: null
   },
   createdAt: {
     type: Date,

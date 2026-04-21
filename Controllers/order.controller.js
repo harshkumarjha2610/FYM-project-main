@@ -380,6 +380,16 @@ async function notifySellers(order, longitude, latitude, io) {
 
       await new Promise(resolve => setTimeout(resolve, 6000));
     }
+
+    // ✅ AFTER ALL TIERS: If still pending, notify buyer
+    const finalOrder = await Order.findById(order._id);
+    if (finalOrder && finalOrder.status === 'pending') {
+      console.log(`📡 SEARCH EXHAUSTED for order ${order._id}. Notifying buyer...`);
+      io.to(`buyer_${order.buyerId}`).emit("order-unaccepted", {
+        orderId: order._id,
+        message: "No sellers found immediately. You can now schedule this order for later."
+      });
+    }
   } catch (err) {
     console.error("Seller notify error:", err);
   }
@@ -512,7 +522,9 @@ exports.getOrders = async (req, res) => {
       status: "pending",
       createdAt: { $gte: tenMinutesAgo },
       rejectedBy: { $nin: [seller._id] },
-    }).sort({ createdAt: -1 });
+    })
+    .populate('buyerId', 'name mobile address')
+    .sort({ createdAt: -1 });
 
     const now = Date.now();
 
@@ -556,7 +568,9 @@ exports.getOrders = async (req, res) => {
 exports.getAcceptedOrders = async (req, res) => {
   try {
     console.log("📥 Fetching accepted orders...");
-    const orders = await Order.find({ status: "accepted", seller: req.seller.id }).sort({ createdAt: -1 });
+    const orders = await Order.find({ status: "accepted", seller: req.seller.id })
+      .populate('buyerId', 'name mobile address')
+      .sort({ createdAt: -1 });
     console.log(`✅ Found ${orders.length} orders`);
     res.status(200).json(orders);
   } catch (error) {
@@ -572,12 +586,52 @@ exports.getOrdersByBuyer = async (req, res) => {
   try {
     const buyerId = req.params.buyerId;
     console.log(`📥 Fetching orders for buyer: ${buyerId}`);
-    const orders = await Order.find({ buyerId }).sort({ createdAt: -1 });
+    const orders = await Order.find({ buyerId })
+      .populate('seller', 'pharmacyName address phone ownerContact number email')
+      .sort({ createdAt: -1 });
     console.log(`✅ Found ${orders.length} orders for buyer`);
     res.status(200).json(orders);
   } catch (error) {
     console.error("❌ Error in getOrdersByBuyer:", error);
     res.status(500).json({ message: "Internal server error" });
+  }
+};
+
+// -------------------------------------------------------------------
+// Cancel an order (for buyers)
+// -------------------------------------------------------------------
+exports.cancelOrder = async (req, res) => {
+  try {
+    const { orderId } = req.params;
+    console.log(`📥 Cancelling order: ${orderId}`);
+    
+    const order = await Order.findById(orderId);
+    
+    if (!order) {
+      console.log("⚠️ Order not found");
+      return res.status(404).json({ success: false, message: "Order not found" });
+    }
+    
+    if (order.status !== 'pending') {
+      console.log(`❌ Cannot cancel order in ${order.status} status`);
+      return res.status(400).json({ 
+        success: false, 
+        message: `Cannot cancel order in ${order.status} status` 
+      });
+    }
+    
+    order.status = 'cancelled';
+    await order.save();
+    
+    console.log("✅ Order cancelled successfully");
+    res.status(200).json({ 
+      success: true, 
+      message: "Order cancelled successfully", 
+      order 
+    });
+  } catch (error) {
+    console.error('❌ Error in cancelOrder:', error);
+    res.status(500).json({ success: false, message: "Internal server error" });
   }
 };
 
@@ -598,6 +652,60 @@ exports.getOrderById = async (req, res) => {
     res.status(200).json(order);
   } catch (error) {
     console.error("❌ Error in getOrderById:", error);
+    res.status(500).json({ message: "Internal server error" });
+  }
+};
+
+// -------------------------------------------------------------------
+// Schedule an order for later
+// -------------------------------------------------------------------
+exports.scheduleOrder = async (req, res) => {
+  try {
+    const { orderId } = req.params;
+    console.log(`📥 Scheduling order: ${orderId}`);
+
+    const order = await Order.findById(orderId);
+    if (!order) {
+      return res.status(404).json({ success: false, message: "Order not found" });
+    }
+
+    if (order.status !== 'pending') {
+      return res.status(400).json({ 
+        success: false, 
+        message: `Order cannot be scheduled from ${order.status} status` 
+      });
+    }
+
+    order.status = 'scheduled';
+    order.scheduledAt = new Date();
+    await order.save();
+
+    console.log("✅ Order scheduled successfully");
+    res.status(200).json({ 
+      success: true, 
+      message: "Order scheduled for later", 
+      order 
+    });
+  } catch (error) {
+    console.error('❌ Error in scheduleOrder:', error);
+    res.status(500).json({ success: false, message: "Internal server error" });
+  }
+};
+
+// -------------------------------------------------------------------
+// Get all scheduled orders (Publicly available to all sellers)
+// -------------------------------------------------------------------
+exports.getScheduledOrders = async (req, res) => {
+  try {
+    console.log("📥 Fetching all scheduled orders...");
+    const orders = await Order.find({ status: "scheduled" })
+      .populate('buyerId', 'name mobile address')
+      .sort({ scheduledAt: -1 });
+    
+    console.log(`✅ Found ${orders.length} scheduled orders`);
+    res.status(200).json(orders);
+  } catch (error) {
+    console.error("❌ Error in getScheduledOrders:", error);
     res.status(500).json({ message: "Internal server error" });
   }
 };
@@ -644,7 +752,7 @@ exports.sellerRespondToOrder = async (req, res) => {
       });
     }
 
-    if (order.status !== 'pending') {
+    if (!['pending', 'scheduled'].includes(order.status)) {
       return res.status(400).json({
         success: false,
         message: `Order is already ${order.status}. Cannot modify.`

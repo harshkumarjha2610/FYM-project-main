@@ -139,6 +139,18 @@ console.log("✅ GET /buyer/:buyerId route registered (buyer auth)");
 router.get("/:orderId", verifyToken, orderController.getOrderById);
 console.log("✅ GET /:orderId route registered (auth)");
 
+// Get all scheduled orders (for sellers)
+router.get("/scheduled", verifySeller, orderController.getScheduledOrders);
+console.log("✅ GET /scheduled route registered (seller auth)");
+
+// Cancel order (requires buyer authentication)
+router.patch("/:orderId/cancel", verifyBuyer, orderController.cancelOrder);
+console.log("✅ PATCH /:orderId/cancel route registered (buyer auth)");
+
+// Schedule order for later (requires buyer authentication)
+router.patch("/:orderId/schedule", verifyBuyer, orderController.scheduleOrder);
+console.log("✅ PATCH /:orderId/schedule route registered (buyer auth)");
+
 // Seller respond to order (accept/reject) - REQUIRES SELLER AUTH
 router.patch("/:orderId/respond", verifySeller, orderController.sellerRespondToOrder);
 console.log("✅ PATCH /:orderId/respond route registered (seller auth)");
