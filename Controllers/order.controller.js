@@ -410,7 +410,11 @@ exports.createOrder = async (req, res) => {
   console.log("📦 req.body:", req.body);
 
   try {
-    const { buyerId, totalAmount, deliveryAddress } = req.body;
+    const { totalAmount, deliveryAddress } = req.body;
+    
+    // ✅ Use authenticated buyer ID from middleware (fallback to body ID if absolutely necessary)
+    const buyerId = req.buyer?.id || req.body.buyerId;
+    console.log("👤 Resolved Buyer ID:", buyerId);
 
     // ✅ items handling (JSON or FormData)
     let items = [];
