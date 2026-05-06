@@ -72,7 +72,7 @@ const orderSchema = new mongoose.Schema({
   },
   status: {
     type: String,
-    enum: ['pending', 'accepted', 'rejected', 'confirmed', 'shipped', 'delivered', 'cancelled', 'scheduled'], // ✅ Added 'scheduled'
+    enum: ['pending', 'accepted', 'rejected', 'confirmed', 'shipped', 'out_for_delivery', 'delivered', 'cancelled', 'scheduled'],
     default: 'pending'
   },
   scheduledAt: {
@@ -94,3 +94,5 @@ const orderSchema = new mongoose.Schema({
 orderSchema.index({ location: '2dsphere' });
 
 module.exports = mongoose.model('Order', orderSchema);
+
+

@@ -1,291 +1,3 @@
-// // ===================================================================
-// // Order Controller (order.controller.js)
-// // ===================================================================
-// const Order = require("../Models/order.js");
-// const Seller = require("../Models/seller.model.js");
-
-// const radius = [2000, 5000, 7000, 10000, 100000, 100000];
-// async function notifySellers(order, longitude, latitude, io) {
-//   try {
-//     for (const r of radius) {
-//       const freshOrder = await Order.findById(order._id);
-//       if (freshOrder.status === "accepted") break;
-
-//       const sellers = await Seller.find({
-//         location: {
-//           $near: {
-//             $geometry: { type: "Point", coordinates: [longitude, latitude] },
-//             $maxDistance: r,
-//           },
-//         },
-//       });
-
-//       const now = new Date();
-//       console.log("Time: ", now);
-//       console.log("Sellers: ", sellers.length);
-
-//       sellers.forEach(s => {
-//         io.to(`seller_${s._id}`).emit("newOrder", order);
-//       });
-
-//       await new Promise(resolve => setTimeout(resolve, 10000));
-//     }
-//   } catch (err) {
-//     console.error("Seller notify error:", err);
-//   }
-// }
-
-// // -------------------------------------------------------------------
-// // Create a new order
-// // -------------------------------------------------------------------
-// exports.createOrder = async (req, res) => {
-//   console.log("🚀 Starting createOrder");
-//   console.log("BODY:", req.body);
-//   console.log("FILE:", req.file);
-
-//   try {
-//     const { buyerId, totalAmount, deliveryAddress } = req.body;
-
-//     // ✅ items handling (JSON or FormData)
-//     const items =
-//       typeof req.body.items === "string"
-//         ? JSON.parse(req.body.items)
-//         : req.body.items || [];
-
-//     // ✅ location handling
-//     const location =
-//       typeof req.body.location === "string"
-//         ? JSON.parse(req.body.location)
-//         : req.body.location;
-
-//     let prescriptionImageUrl = null;
-
-//     if (req.file) {
-//       prescriptionImageUrl = `${req.protocol}://${req.get("host")}/uploads/${req.file.filename}`;
-//     }
-
-//     console.log("🖼️ Prescription Image URL:", prescriptionImageUrl);
-
-//     const [longitude, latitude] = location.coordinates;
-
-//     const newOrder = new Order({
-//       buyerId,
-//       items,
-//       totalAmount,
-//       prescriptionImage: prescriptionImageUrl,
-//       deliveryAddress,
-//       location,
-//       status: "pending",
-//     });
-
-//     await newOrder.save();
-
-//     res.status(201).json({
-//       message: "Order placed successfully",
-//       order: newOrder,
-//     });
-
-//     const io = req.app.get("io");
-//     process.nextTick(() =>
-//       notifySellers(newOrder, longitude, latitude, io)
-//     );
-
-//   } catch (err) {
-//     console.error("❌ createOrder error:", err);
-//     res.status(500).json({ message: "Internal server error" });
-//   }
-// };
-
-// // -------------------------------------------------------------------
-// // Get all orders (for debugging / admin use)
-// // -------------------------------------------------------------------
-// exports.getOrders = async (req, res) => {
-//   try {
-//     console.log("📥 Fetching all orders...");
-//     const orders = await Order.find().sort({ createdAt: -1 });
-//     console.log(`✅ Found ${orders.length} orders`);
-//     res.status(200).json(orders);
-//   } catch (error) {
-//     console.error("❌ Error in getOrders:", error);
-//     res.status(500).json({ message: "Internal server error" });
-//   }
-// };
-
-// // -------------------------------------------------------------------
-// // Get all orders by buyer
-// // -------------------------------------------------------------------
-// exports.getOrdersByBuyer = async (req, res) => {
-//   try {
-//     const buyerId = req.params.buyerId;
-//     console.log(`📥 Fetching orders for buyer: ${buyerId}`);
-//     const orders = await Order.find({ buyerId }).sort({ createdAt: -1 });
-//     console.log(`✅ Found ${orders.length} orders for buyer`);
-//     res.status(200).json(orders);
-//   } catch (error) {
-//     console.error("❌ Error in getOrdersByBuyer:", error);
-//     res.status(500).json({ message: "Internal server error" });
-//   }
-// };
-
-// // -------------------------------------------------------------------
-// // Get single order
-// // -------------------------------------------------------------------
-// exports.getOrderById = async (req, res) => {
-//   try {
-//     const orderId = req.params.orderId;
-//     console.log(`📥 Fetching order by ID: ${orderId}`);
-//     const order = await Order.findById(orderId);
-
-//     if (!order) {
-//       console.log("⚠️ Order not found");
-//       return res.status(404).json({ message: "Order not found" });
-//     }
-//     console.log("✅ Order found:", order._id);
-//     res.status(200).json(order);
-//   } catch (error) {
-//     console.error("❌ Error in getOrderById:", error);
-//     res.status(500).json({ message: "Internal server error" });
-//   }
-// };
-
-// // -------------------------------------------------------------------
-// // Seller responds to order (accept/reject)
-// // -------------------------------------------------------------------
-// exports.sellerRespondToOrder = async (req, res) => {
-//   try {
-//     console.log('\n📦 ========================================');
-//     console.log('📦 SELLER RESPOND TO ORDER');
-//     console.log('📦 ========================================');
-//     console.log('⏰ Request time:', new Date().toISOString());
-//     console.log('🆔 Order ID from params:', req.params.orderId);
-//     console.log('📋 Request body:', JSON.stringify(req.body, null, 2));
-//     console.log('🔐 Authenticated seller from middleware:', req.seller);
-//     console.log('📋 Request headers:', Object.keys(req.headers));
-
-//     const { orderId } = req.params;
-//     const { action, status } = req.body; // Accept both 'action' and 'status'
-//     const io = req.app.get("io");
-
-//     // ✅ Get seller ID from authenticated middleware (not from body)
-//     const sellerId = req.seller?.sellerId || req.seller?.id || req.body.sellerId;
-    
-//     console.log('🔍 Seller ID resolved to:', sellerId);
-
-//     // Validate seller authentication
-//     if (!sellerId) {
-//       console.log('❌ No seller ID found in request');
-//       return res.status(401).json({ 
-//         success: false,
-//         message: "Authentication required - no seller ID" 
-//       });
-//     }
-
-//     // Validate action
-//     const finalAction = action || (status === 'accepted' ? 'accept' : status === 'rejected' ? 'reject' : null);
-    
-//     console.log('🔍 Action validation:', {
-//       receivedAction: action,
-//       receivedStatus: status,
-//       finalAction: finalAction
-//     });
-
-//     if (!finalAction || !["accept", "reject"].includes(finalAction)) {
-//       console.log('❌ Invalid action:', { action, status, finalAction });
-//       return res.status(400).json({ 
-//         success: false,
-//         message: "Invalid action. Expected 'accept' or 'reject'" 
-//       });
-//     }
-
-//     console.log(`📥 Seller ${sellerId} responding to order ${orderId} with action: ${finalAction}`);
-
-//     // Find order
-//     console.log('🔍 Finding order...');
-//     const order = await Order.findById(orderId);
-    
-//     if (!order) {
-//       console.log('❌ Order not found');
-//       return res.status(404).json({ 
-//         success: false,
-//         message: "Order not found" 
-//       });
-//     }
-
-//     console.log('✅ Order found:', {
-//       orderId: order._id,
-//       currentStatus: order.status,
-//       buyer: order.buyerId || order.buyer,
-//       currentSeller: order.sellerId || order.seller
-//     });
-
-//     // Check if order is still pending
-//     if (order.status !== 'pending') {
-//       console.log('❌ Order already processed:', order.status);
-//       return res.status(400).json({
-//         success: false,
-//         message: `Order is already ${order.status}. Cannot modify.`
-//       });
-//     }
-
-//     // Update order
-//     const newStatus = finalAction === "accept" ? "accepted" : "rejected";
-//     order.status = newStatus;
-//     order.sellerId = sellerId;
-//     order.seller = sellerId;
-//     order.respondedAt = new Date();
-    
-//     await order.save();
-
-//     console.log(`✅ Order ${orderId} updated to ${order.status}`);
-
-//     // Notify buyer about decision via Socket.IO (if available)
-//     if (io) {
-//       const buyerId = order.buyerId || order.buyer;
-//       console.log('📡 Emitting socket event to buyer:', buyerId);
-      
-//       io.to(`buyer_${buyerId}`).emit("orderResponse", {
-//         orderId,
-//         status: order.status,
-//         sellerId: sellerId,
-//         timestamp: new Date()
-//       });
-      
-//       console.log('✅ Socket notification sent');
-//     } else {
-//       console.log('⚠️ Socket.IO not available, skipping real-time notification');
-//     }
-
-//     console.log('📤 Sending success response');
-//     res.status(200).json({ 
-//       success: true,
-//       message: `Order ${newStatus} successfully`, 
-//       order: order,
-//       orderId: order._id,
-//       status: order.status
-//     });
-
-//     console.log('📦 ========================================\n');
-
-//   } catch (error) {
-//     console.error('❌ ========================================');
-//     console.error('❌ ERROR IN SELLER RESPOND TO ORDER');
-//     console.error('❌ ========================================');
-//     console.error('💥 Error name:', error.name);
-//     console.error('💥 Error message:', error.message);
-//     console.error('💥 Error stack:', error.stack);
-    
-//     res.status(500).json({ 
-//       success: false,
-//       message: "Internal server error",
-//       error: process.env.NODE_ENV === 'development' ? error.message : 'Server error'
-//     });
-//   }
-// };
-
-
-// ===================================================================
-// Order Controller (order.controller.js)
-// ===================================================================
 const Order = require("../Models/order.js");
 const Seller = require("../Models/seller.model.js");
 
@@ -331,7 +43,7 @@ const options = [
 ];
 
 // Interval (in ms) between each notifySellers tier
-const TIER_INTERVAL_MS = 6000;
+const TIER_INTERVAL_MS = 70 * 1000;
 
 // Haversine formula: returns distance in meters between two lat/lng pairs
 function haversineDistance(lat1, lon1, lat2, lon2) {
@@ -378,7 +90,7 @@ async function notifySellers(order, longitude, latitude, io) {
         io.to(`seller_${s._id}`).emit("newOrder", order);
       });
 
-      await new Promise(resolve => setTimeout(resolve, 6000));
+      await new Promise(resolve => setTimeout(resolve, TIER_INTERVAL_MS));
     }
 
     // ✅ AFTER ALL TIERS: If still pending, notify buyer
@@ -572,8 +284,12 @@ exports.getOrders = async (req, res) => {
 exports.getAcceptedOrders = async (req, res) => {
   try {
     console.log("📥 Fetching accepted orders...");
-    const orders = await Order.find({ status: "accepted", seller: req.seller.id })
+    const orders = await Order.find({
+      status: { $in: ["accepted", "shipped", "out_for_delivery"] },
+      seller: req.seller.id
+    })
       .populate('buyerId', 'name mobile address')
+      .populate('seller', 'pharmacyName address phone ownerContact number email')
       .sort({ createdAt: -1 });
     console.log(`✅ Found ${orders.length} orders`);
     res.status(200).json(orders);
@@ -609,7 +325,9 @@ exports.cancelOrder = async (req, res) => {
     const { orderId } = req.params;
     console.log(`📥 Cancelling order: ${orderId}`);
     
-    const order = await Order.findById(orderId);
+    const order = await Order.findById(orderId)
+      .populate('buyerId', 'name mobile address')
+      .populate('seller', 'pharmacyName address phone ownerContact number email');
     
     if (!order) {
       console.log("⚠️ Order not found");
@@ -646,7 +364,9 @@ exports.getOrderById = async (req, res) => {
   try {
     const orderId = req.params.orderId;
     console.log(`📥 Fetching order by ID: ${orderId}`);
-    const order = await Order.findById(orderId);
+    const order = await Order.findById(orderId)
+      .populate('buyerId', 'name mobile address')
+      .populate('seller', 'pharmacyName address phone ownerContact number email');
 
     if (!order) {
       console.log("⚠️ Order not found");
@@ -668,7 +388,9 @@ exports.scheduleOrder = async (req, res) => {
     const { orderId } = req.params;
     console.log(`📥 Scheduling order: ${orderId}`);
 
-    const order = await Order.findById(orderId);
+    const order = await Order.findById(orderId)
+      .populate('buyerId', 'name mobile address')
+      .populate('seller', 'pharmacyName address phone ownerContact number email');
     if (!order) {
       return res.status(404).json({ success: false, message: "Order not found" });
     }
@@ -715,6 +437,71 @@ exports.getScheduledOrders = async (req, res) => {
 };
 
 // -------------------------------------------------------------------
+// Seller updates delivery status after accepting an order
+// -------------------------------------------------------------------
+exports.updateOrderStatus = async (req, res) => {
+  try {
+    const { orderId } = req.params;
+    const { status } = req.body;
+    const sellerId = req.seller?.sellerId || req.seller?.id;
+    const io = req.app.get("io");
+
+    const transitions = {
+      accepted: ["shipped"],
+      shipped: ["out_for_delivery"],
+      out_for_delivery: ["delivered"],
+    };
+
+    if (!["shipped", "out_for_delivery", "delivered"].includes(status)) {
+      return res.status(400).json({ success: false, message: "Invalid status update" });
+    }
+
+    const order = await Order.findById(orderId)
+      .populate('buyerId', 'name mobile address')
+      .populate('seller', 'pharmacyName address phone ownerContact number email');
+    if (!order) {
+      return res.status(404).json({ success: false, message: "Order not found" });
+    }
+
+    const assignedSellerId = order.seller?._id?.toString() || order.seller?.toString();
+    if (assignedSellerId !== sellerId && order.sellerId !== sellerId) {
+      return res.status(403).json({
+        success: false,
+        message: "You can update only orders accepted by your pharmacy"
+      });
+    }
+
+    const allowedNextStatuses = transitions[order.status] || [];
+    if (!allowedNextStatuses.includes(status)) {
+      return res.status(400).json({
+        success: false,
+        message: `Cannot change order from ${order.status} to ${status}`
+      });
+    }
+
+    order.status = status;
+    await order.save();
+
+    if (io) {
+      io.to(`buyer_${order.buyerId}`).emit("orderResponse", {
+        orderId,
+        status,
+        sellerId,
+        timestamp: new Date()
+      });
+    }
+
+    res.status(200).json({
+      success: true,
+      message: "Order status updated successfully",
+      order
+    });
+  } catch (error) {
+    console.error("Error in updateOrderStatus:", error);
+    res.status(500).json({ success: false, message: "Internal server error" });
+  }
+};
+// -------------------------------------------------------------------
 // Seller responds to order (accept/reject)
 // -------------------------------------------------------------------
 exports.sellerRespondToOrder = async (req, res) => {
@@ -747,7 +534,9 @@ exports.sellerRespondToOrder = async (req, res) => {
       });
     }
 
-    const order = await Order.findById(orderId);
+    const order = await Order.findById(orderId)
+      .populate('buyerId', 'name mobile address')
+      .populate('seller', 'pharmacyName address phone ownerContact number email');
     
     if (!order) {
       return res.status(404).json({ 
@@ -804,3 +593,11 @@ exports.sellerRespondToOrder = async (req, res) => {
     });
   }
 };
+
+
+
+
+
+
+
+
