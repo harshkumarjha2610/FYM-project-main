@@ -515,6 +515,7 @@ const corsOptions = {
     "http://192.168.1.5:3000",
     "http://192.168.1.9:3000",
     "https://rambackend-1-qmpn.onrender.com",
+    "*"
     // Add your production domain if different
   ],
   methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
@@ -568,6 +569,8 @@ const adminSellerRoutes = require("./Routes/adminSeller.Routes");
 console.log("✅ Admin seller routes loaded");
 
 console.log("\n🔗 Mounting routes to Express app...");
+
+app.get("/",(req,res)=>{ res.send("Welcome to FyM"); });
 
 // Admin Routes (unauthenticated, for seller management)
 console.log("👑 Mounting admin seller routes at /api/admin/sellers...");

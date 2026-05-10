@@ -268,7 +268,8 @@ sellerSchema.index({ discount: 1, isVerified: 1, isActive: 1 }); // ✅ NEW COMP
 
 // Virtuals
 sellerSchema.virtual("fullAddress").get(function () {
-  return `${this.location.address}, ${this.location.city}, ${this.location.state} - ${this.location.pincode}`;
+  if (!this.location) return "Address not configured";
+  return `${this.location.address || ''}, ${this.location.city || ''}, ${this.location.state || ''} - ${this.location.pincode || ''}`;
 });
 
 sellerSchema.virtual("profileCompletion").get(function () {
@@ -281,15 +282,15 @@ sellerSchema.virtual("profileCompletion").get(function () {
   if (this.gstNumber) completed++;
   if (this.drugLicense1) completed++;
   if (this.drugLicense2) completed++;
-  if (this.location.address) completed++;
-  if (this.shopPhotos.length > 0) completed++;
+  if (this.location && this.location.address) completed++;
+  if (this.shopPhotos && Array.isArray(this.shopPhotos) && this.shopPhotos.length > 0) completed++;
   if (this.description) completed++;
   if (this.discount) completed++; // ✅ NEW LINE
   return Math.round((completed / total) * 100);
 });
 
 sellerSchema.virtual("shopPhotoCount").get(function () {
-  return this.shopPhotos.length;
+  return (this.shopPhotos && Array.isArray(this.shopPhotos)) ? this.shopPhotos.length : 0;
 });
 
 // ✅ NEW VIRTUAL for discount display

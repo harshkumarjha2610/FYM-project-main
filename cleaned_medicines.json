@@ -1,0 +1,7002 @@
+[
+  {
+    "name": "Hansaplast  Regular",
+    "price": 289.64,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Hansaplast  Washproof",
+    "price": 342.21,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Personal Care"
+  },
+  {
+    "name": "Baconil Mint Sugar Free Chew Gum 2mg",
+    "price": 391.87,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Baconil Mint Sugar Free Chew Gum 4mg",
+    "price": 186.13,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Baconil Nicotine Gum Ice Mint Sugar Free Chew Gum 2mg",
+    "price": 238.84,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Baconil Nicotine Gum Mint Flavour Chew Gum 2mg",
+    "price": 497.8,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Baconil TTS10 Patches 7mg/24h    1x7",
+    "price": 143.05,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Baconil TTS20 Patches 14mg/24h    1x7",
+    "price": 314.46,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Baconil TTS30 Patches 21mg/24h    1x7",
+    "price": 348.71,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "MP Tab 50mg",
+    "price": 78.66,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "X KT Shampoo     60ml",
+    "price": 73.55,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "X Shampoo      120ml",
+    "price": 120.96,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "9PM Eye Drops 0.005%w/v/0.02%    2.5ml",
+    "price": 445.5,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Eye/Ear Drops"
+  },
+  {
+    "name": "A Ret Gel 0.025%    20gm",
+    "price": 370.2,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "A Ret Gel 0.05%    20gm",
+    "price": 298.3,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "A Ret Gel 0.1%    20gm",
+    "price": 494.54,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "A Ret HC Cream     15gm",
+    "price": 282.6,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "A to Z Amino Tab",
+    "price": 317.19,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "A To Z CV Cap",
+    "price": 333.01,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "A To Z Gold Cap",
+    "price": 308.36,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "A To Z Oral Drops     15ml",
+    "price": 218.01,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Eye/Ear Drops"
+  },
+  {
+    "name": "A To Z Oral Drops     30ml",
+    "price": 387.72,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Eye/Ear Drops"
+  },
+  {
+    "name": "A To Z Syrup     200ml",
+    "price": 171.02,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Syrup"
+  },
+  {
+    "name": "A To Z Tab",
+    "price": 232.59,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "A To Z Woman Cap",
+    "price": 36.42,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Ab Flo Cap 100mg",
+    "price": 179.7,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Ab Flo N Tab 100mg",
+    "price": 398.86,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Ab Flo SR Tab 200mg",
+    "price": 275.13,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Ab Phylline Cap 100mg",
+    "price": 210.12,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Ab Phylline N Tab",
+    "price": 426.85,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "AB Phylline SR Tab 200mg",
+    "price": 347.84,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Ab Phylline Syrup 50mg    100ml",
+    "price": 361.13,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Syrup"
+  },
+  {
+    "name": "Abana Tab     1x60",
+    "price": 486.46,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Abaxis Tab 2.5mg",
+    "price": 461.13,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Abaxis Tab 5mg",
+    "price": 229.61,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Abdec Drops     15ml",
+    "price": 61.86,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Eye/Ear Drops"
+  },
+  {
+    "name": "Abdec Forte Mango & Pineapple Flavour Syrup     150ml",
+    "price": 218.46,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Syrup"
+  },
+  {
+    "name": "Abdec Tab",
+    "price": 92.62,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Abel Tab 40mg",
+    "price": 56.24,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Abetaneuron D3 Cap",
+    "price": 289.19,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Abetaneuron OD Cap",
+    "price": 87.05,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Abevia SR Tab 200mg",
+    "price": 230.27,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Abhay Tox Inj 0.5ml",
+    "price": 405.15,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Injection"
+  },
+  {
+    "name": "Abhayrab Inj Purified Vero Cell Rabies Vaccine",
+    "price": 242.43,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Injection"
+  },
+  {
+    "name": "Abhayrab Vaccine Inj 0.5ml",
+    "price": 194.16,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Injection"
+  },
+  {
+    "name": "Absenz Oral Solution     100ml",
+    "price": 66.99,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Absolut 3G Cap",
+    "price": 450.08,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Absolut DM Cap",
+    "price": 183.79,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Absolut Gold Cap",
+    "price": 420.88,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Absolut Woman Cap",
+    "price": 107.06,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Abzorb Dusting Powder 1%w/w    100gm",
+    "price": 433.1,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Powder"
+  },
+  {
+    "name": "Abzorb Dusting Powder 1%w/w    120gm",
+    "price": 319.67,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Powder"
+  },
+  {
+    "name": "Acamprol Tab 333mg",
+    "price": 365.56,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Acamptas Tab 333mg",
+    "price": 298.33,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Accuchek Active Glucose Strips     50x1",
+    "price": 363.74,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Accuchek Active Meter",
+    "price": 215.22,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Accuchek Active Softclix Lancet     1x25",
+    "price": 53.15,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Accuchek Active Test Strips      1x100",
+    "price": 61.5,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Accuchek Instant S Meter",
+    "price": 64.81,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Accuchek Instant Strips     50x1s",
+    "price": 132.63,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Accumune Gold Tab",
+    "price": 165.8,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Ace Proxyvon CR Tab 20mg/200mg",
+    "price": 301.9,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Ace Proxyvon Tab 100mg/325mg",
+    "price": 71.71,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Ace Proxyvon TH Tab 4mg/100mg/325mg",
+    "price": 371.91,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Aceclo Plus Tab",
+    "price": 332.61,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Aceclo Tab",
+    "price": 376.58,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Acemiz MR Tab 100mg/325mg/250mg",
+    "price": 482.25,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Acenac MR Tab 100mg/4mg",
+    "price": 301.01,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Acenac P Tab",
+    "price": 34.11,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Acetaas Plus Tab 100mg/ 325mg",
+    "price": 425.04,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Acetone      100ml",
+    "price": 165.87,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Acetone      400ml",
+    "price": 159.66,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Aciloc RD Tab 20mg/10mg",
+    "price": 199.43,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Aciloc Tab 150mg",
+    "price": 331.26,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Aciloc Tab 300mg",
+    "price": 457.29,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Acitrom Tab 1mg",
+    "price": 337.68,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Acitrom Tab 2mg",
+    "price": 453.04,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Acitrom Tab 3mg",
+    "price": 250.38,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Acitrom Tab 4mg",
+    "price": 390.95,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Acivir Cream 5%    10gm",
+    "price": 363.18,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "Acivir DT Tab 200mg",
+    "price": 379.03,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Acivir DT Tab 400mg",
+    "price": 372.1,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Acivir DT Tab 400mg",
+    "price": 88.98,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Acivir DT Tab 800mg",
+    "price": 17.83,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Acivir DT Tab 800mg",
+    "price": 379.58,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Aclind BP Gel 1%w/v/5%w/v    15gm",
+    "price": 178.12,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "Aclind BP Gel 2.5%/1%    15gm",
+    "price": 44.86,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "Acmed Face Wash     200gm",
+    "price": 235.54,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Personal Care"
+  },
+  {
+    "name": "Acmist Moisturizing Gel     50gm",
+    "price": 193.99,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "Acne OC  Moisturizer      75gm",
+    "price": 409.21,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Acne OC Moisturizer Cream     75gm",
+    "price": 305.66,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "Acne UV Gel SPF30 PA+++    30gm",
+    "price": 58.69,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "Acne UV Gel SPF30 PA+++    60gm",
+    "price": 153.29,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "Acne UV Gold SPF 100 PA++++ Sunscreen Gel Cream    50gm",
+    "price": 403.25,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "Acne UV SPF 50 PA+++ Gel     100gm",
+    "price": 157.66,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "Acne UV SPF 50 PA+++ Gel     50gm",
+    "price": 85.92,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "Acnechio Deep Cleansing Gel Face Wash    100ml",
+    "price": 305.14,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "Acnechio M Tab",
+    "price": 173.64,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Acnechio M Tab",
+    "price": 99.6,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Acnechio OD Tab",
+    "price": 73.75,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Acnedap Gel 5%    15gm",
+    "price": 113.72,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "Acnedap Plus Gel 5%    15gm",
+    "price": 488.01,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "Acnekare Face Wash     100ml",
+    "price": 201.65,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Personal Care"
+  },
+  {
+    "name": "Acnelak 4 In 1 Face Wash     100gm",
+    "price": 406.0,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Personal Care"
+  },
+  {
+    "name": "Acnelak Soap     75gm",
+    "price": 121.41,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Acnemoist BK Cream     60gm",
+    "price": 448.33,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "Acnemoist Cream     60gm",
+    "price": 497.76,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "Acnephob Foaming Face Wash     100ml",
+    "price": 188.52,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Personal Care"
+  },
+  {
+    "name": "Acnesol Gel     20gm",
+    "price": 121.5,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "Acnestar 2.5% Soap     75gm",
+    "price": 239.77,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Acnestar Gel     22gm",
+    "price": 151.77,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "Acneste Acne Face Serum     50ml",
+    "price": 474.57,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Acnola Acne Face Wash     100ml",
+    "price": 102.06,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Personal Care"
+  },
+  {
+    "name": "Acnonac Tab",
+    "price": 64.01,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Acogut ER Tab 300mg",
+    "price": 176.29,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Acogut Tab 100mg",
+    "price": 305.79,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Acotibien SR Tab 300mg",
+    "price": 60.36,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Acotrust Tab 100mg",
+    "price": 127.82,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Acrofy Acne Lotion     50gm",
+    "price": 326.63,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Acrotac Tab 10mg",
+    "price": 465.41,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Acrotac Tab 25mg",
+    "price": 19.53,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Actapro OD Tab 300mg",
+    "price": 228.67,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Actapro Tab 100mg",
+    "price": 289.31,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Actis C2 Forte Tab",
+    "price": 288.06,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Actis C2 Tab",
+    "price": 250.99,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Active D Tab",
+    "price": 277.76,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Activision Cap",
+    "price": 372.07,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Actrapid Flexpen Pre-Filled Syringe 100IU/3ml    3ml",
+    "price": 254.28,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Actrapid HM Penfill Inj     3ml",
+    "price": 56.04,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Injection"
+  },
+  {
+    "name": "Acular LS Eye Drops 0.4%    5ml",
+    "price": 102.65,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Eye/Ear Drops"
+  },
+  {
+    "name": "Acunus Gel     20ml",
+    "price": 96.79,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "Acupat Eye Drops 1mg/4mg    5ml",
+    "price": 440.38,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Eye/Ear Drops"
+  },
+  {
+    "name": "Acutret Cap 10mg",
+    "price": 344.14,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Acutret Cap 20mg",
+    "price": 319.34,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Acutret Cap 30mg",
+    "price": 263.36,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Acutret Cap 5mg",
+    "price": 12.03,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Acuvin Tab",
+    "price": 243.15,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Acwash Face Wash     100ml",
+    "price": 393.14,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Personal Care"
+  },
+  {
+    "name": "AD Gold Q10 Tab",
+    "price": 416.45,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Adaferin Gel 0.1%    15gm",
+    "price": 209.0,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "Adbone K2 Tab",
+    "price": 353.58,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Adboost Tab",
+    "price": 314.72,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Adcross Aqua Anti Pollution Sunscreen Gel SPF 50+    75ml",
+    "price": 179.97,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "Adcross Sunscreen Lotion SPF 50    75ml",
+    "price": 326.47,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Add Tears Eye Drops     10ml",
+    "price": 353.39,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Eye/Ear Drops"
+  },
+  {
+    "name": "Addna Tab",
+    "price": 131.22,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Addphos Granules      3.2gm",
+    "price": 386.07,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Addtears Eye Drops     10ml",
+    "price": 108.93,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Eye/Ear Drops"
+  },
+  {
+    "name": "Addyzoa Cap",
+    "price": 389.2,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Adebact- Pro Cap",
+    "price": 95.51,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Adenosyl  OD Softgel Cap",
+    "price": 488.72,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Adgain Plus Cap",
+    "price": 271.14,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Adgain Plus Cap",
+    "price": 293.48,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Adiga 369 Softgel Cap",
+    "price": 495.88,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Adilip Tab 135mg",
+    "price": 158.97,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Admenta Tab 10mg",
+    "price": 382.3,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Admenta Tab 5mg",
+    "price": 164.44,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Adril Lotion     100ml",
+    "price": 476.71,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Adril Max Lotion     100ml",
+    "price": 438.19,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Advay Electric Heating Pad",
+    "price": 14.73,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Advay Vaporizer All in One Steamer",
+    "price": 12.11,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Advent Dry Syrup 228.5mg    30ml",
+    "price": 191.63,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Syrup"
+  },
+  {
+    "name": "Advent Forte Syrup 400mg/57mg    30ml",
+    "price": 285.32,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Syrup"
+  },
+  {
+    "name": "Advent Forte Syrup 400mg/57mg    60ml",
+    "price": 432.18,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Syrup"
+  },
+  {
+    "name": "Aerocort Forte Rotacaps     1x30",
+    "price": 468.02,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Aerocort Inhaler      200MD",
+    "price": 126.45,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Aerocort Rotacaps     1x60",
+    "price": 158.42,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "AF 150 Tab 150mg",
+    "price": 315.7,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "AF Kit Tab",
+    "price": 67.93,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Af Tab 200mg",
+    "price": 18.9,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "AF Tab 400mg",
+    "price": 223.07,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Af Tab 50mg",
+    "price": 375.62,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Afdura Tab 0.5mg/10mg",
+    "price": 444.12,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Affotel Tab 40mg",
+    "price": 179.44,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Afilada Cleansing Lotion     250ml",
+    "price": 365.23,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Afoglip M Tab 1000mg/20mg",
+    "price": 19.38,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Afoglip M Tab 500mg/20mg",
+    "price": 262.5,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Agivog Tab 0.3mg",
+    "price": 428.55,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Agoprex Tab 25mg",
+    "price": 414.49,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Aha  Lightening Gel HQ    30ml",
+    "price": 267.47,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "Ahaglow Advance Gel Face wash    200ml",
+    "price": 400.75,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "Ahaglow Advance Gel Face wash    50ml",
+    "price": 413.13,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "Ahaglow Gel Face wash    100gm",
+    "price": 354.6,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "Ahaglow Gel Face wash    50gm",
+    "price": 146.42,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "Ahaglow Moist Gel     50gm",
+    "price": 288.62,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "Ahaglow S Foaming Face Wash Spray     100ml",
+    "price": 463.97,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Spray"
+  },
+  {
+    "name": "Aim 7 XR Tab 30mg/500mg/15mg",
+    "price": 266.78,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Aim7 -60 XR Tab 500mg/60mg/15mg",
+    "price": 451.5,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Aimil Giloe Immunity Cap     1x60",
+    "price": 363.49,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Aimil Shilajit Gold Performance Booster Cap     1x20",
+    "price": 304.09,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Ainini 3 Way Action (Vogue) Tab     1x60",
+    "price": 218.8,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Air 120 Tab",
+    "price": 343.13,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Air 180 Tab",
+    "price": 368.37,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Air FZ 120MD Nasal Spray 27.5mcg",
+    "price": 378.01,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Spray"
+  },
+  {
+    "name": "Air-M Tab 120mg/10mg",
+    "price": 160.06,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Airz Cap",
+    "price": 86.12,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Airz F Cap     1x30",
+    "price": 141.6,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Airz FB Cap     1x30",
+    "price": 405.78,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Airz FB Smartules 0.5mg/20mcg/25mcg    5sX2ml",
+    "price": 305.53,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Ajaduo M Forte Tab 10mg/5mg/1000",
+    "price": 215.61,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Ajaduo Tab 10mg/5mg",
+    "price": 444.19,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Ajaduo Tab 25mg/5mg",
+    "price": 422.37,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Akl AM Tab",
+    "price": 212.87,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Aklief Cream     30gm",
+    "price": 78.84,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "AKT 3 Kit",
+    "price": 112.98,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "AKT 4 Kit",
+    "price": 429.23,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Aktive Abdominal Binder Support Large 588",
+    "price": 416.32,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Aktive Abdominal Binder Support XL 588",
+    "price": 65.41,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Aktive AKL-003 Weekly Pill Box AM/PM",
+    "price": 244.29,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Aktive AKL004 Tablet Cutter",
+    "price": 180.5,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Aktive AKL021 Heel Gel Protector",
+    "price": 268.11,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "Aktive Ankle Support (Large) 510",
+    "price": 217.92,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Aktive Ankle Support (Medium) 510",
+    "price": 127.08,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Aktive Arm Sling Pouch (Large) 571",
+    "price": 170.57,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Aktive Arm Sling Pouch (XL) 571",
+    "price": 27.12,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Aktive Compression Stocking Above Knee (Large) 593 AK",
+    "price": 329.52,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Aktive Compression Stocking Above Knee (Medium) 593 AK",
+    "price": 403.71,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Aktive Compression Stocking Above Knee (Medium) 593 BK",
+    "price": 15.22,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Aktive Compression Stocking Below Knee (Large) 593 BK",
+    "price": 133.04,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Aktive Elbow Support (Large) 520",
+    "price": 389.71,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Aktive Elbow Support (Medium) 520",
+    "price": 372.87,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Aktive Gel Heel Pad 560 Large",
+    "price": 56.47,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "Aktive Gel Heel Pad 560 Small",
+    "price": 166.33,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "Aktive Knee Support Elastic (L) 500",
+    "price": 257.01,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Aktive Knee Support Elastic (XL) 500",
+    "price": 147.63,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Aktive Lumbo Sacral Support Belt (Large) 543",
+    "price": 218.87,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Aktive Lumbo Sacral Support Belt (XL) 543",
+    "price": 169.08,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Aktive Nausea/Motion Sickness Band AKL-10",
+    "price": 167.02,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Aktive Travel Socks (Large) 591",
+    "price": 303.98,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Aktive Travel Socks (Medium) 591",
+    "price": 257.56,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Aktive Wrist Support Fits All 533",
+    "price": 480.14,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Akurit 3 Tab",
+    "price": 365.95,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Akurit 4 Tab",
+    "price": 154.64,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Alafin Tab 600mg",
+    "price": 495.63,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Alamin M Forte Cap",
+    "price": 414.13,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Alamin M Forte Cap",
+    "price": 42.5,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Alaspan AM Tab 5mg/60mg",
+    "price": 220.87,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Alaspan Tab 10mg",
+    "price": 247.08,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Alcofix-Gold Tab",
+    "price": 299.32,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Alcomax Tab",
+    "price": 175.13,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Aldactone Tab 100mg",
+    "price": 292.27,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Aldactone Tab 25mg",
+    "price": 209.39,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Aldactone Tab 50mg",
+    "price": 267.76,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Aldep Tab 10mg",
+    "price": 373.2,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Aldep Tab 10mg",
+    "price": 63.87,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Aldigesic P Tab 100mg/325mg",
+    "price": 201.75,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Aldigesic SP Tab 100mg/325mg/10mg",
+    "price": 68.11,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Aldonil OD Tab 150mg",
+    "price": 229.88,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Aldonil Plus Tab 150mg/1500mcg",
+    "price": 51.05,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Aldosmin Tab 500mg",
+    "price": 160.96,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Aldry Lotion     150ml",
+    "price": 168.72,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Alensol D Tab 70mg/5600 IU",
+    "price": 384.27,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Alerfix Total Tab 10mg/75mg",
+    "price": 480.89,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Alerid D Tab 5mg/10mg",
+    "price": 226.33,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Alerid Syrup 5mg/5ml    30ml",
+    "price": 437.3,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Syrup"
+  },
+  {
+    "name": "Alerid Syrup 5mg/5ml    60ml",
+    "price": 213.69,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Syrup"
+  },
+  {
+    "name": "Alerid Tab 10mg",
+    "price": 346.04,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Alex Junior Syrup 5mg/5ml/2ml/5ml    60ml",
+    "price": 39.37,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Syrup"
+  },
+  {
+    "name": "Alex L SF Syrup     100ml",
+    "price": 335.96,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Syrup"
+  },
+  {
+    "name": "Alex Lozenges",
+    "price": 55.76,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Alex LS Expectorant Syrup 1mg/30mg/50mg    100ml",
+    "price": 225.14,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Syrup"
+  },
+  {
+    "name": "Alex P Syrup     60ml",
+    "price": 401.69,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Syrup"
+  },
+  {
+    "name": "Alex Sugar Free Lozenges",
+    "price": 291.16,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Alex Sugar Free Syrup 10mg/5mg/2mg    100ml",
+    "price": 402.46,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Syrup"
+  },
+  {
+    "name": "Alex Syrup     100ml",
+    "price": 230.17,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Syrup"
+  },
+  {
+    "name": "Alfavit Cap",
+    "price": 42.84,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Alfoo Tab 10mg",
+    "price": 267.29,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Alfugress Tab 10mg",
+    "price": 323.94,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Alfusin D Tab 10mg/0.5mg",
+    "price": 215.58,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Alfusin T Tab 10mg/5mg",
+    "price": 380.49,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Alfusin T Tab 2.5mg/10mg",
+    "price": 182.49,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Alfusin Tab 10mg",
+    "price": 34.37,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Algiduo Suspension     150ml",
+    "price": 331.85,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Alkacitral Liquid 1.25gm    100ml",
+    "price": 362.42,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Alkapac Cardamom Flavour Sugar Free Syrup     100ml",
+    "price": 300.79,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Syrup"
+  },
+  {
+    "name": "Alkasol Liquid     200ml",
+    "price": 200.44,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Alkasol SF Solution     100ml",
+    "price": 336.78,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Alkasol Solution     100ml",
+    "price": 268.26,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Alkof Ginger Flavour Cough Lozenges 0.6mg/1.2mg",
+    "price": 64.83,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Alkof Orange Cough Lozenges 0.6mg/1.2mg",
+    "price": 49.27,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Allegra D Tab 60mg/120mg",
+    "price": 433.07,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Allegra M Tab 120mg/10mg",
+    "price": 489.54,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Allegra Nasal DUO 7G/70MD  27.5mcg",
+    "price": 41.15,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Allegra Nasal Spray 120MD  27.5mcg",
+    "price": 87.9,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Spray"
+  },
+  {
+    "name": "Allegra Susp 30mg/5ml    100ml",
+    "price": 414.06,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Allegra Tab 120mg",
+    "price": 180.87,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Allegra Tab 180mg",
+    "price": 309.35,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Allegra Tab 30mg",
+    "price": 67.54,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Allerbio Sachet     1gm",
+    "price": 189.97,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Allercet DC Tab",
+    "price": 253.13,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Allercet M Tab",
+    "price": 168.1,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Allstar (Reusable Insulin Delivery Device)",
+    "price": 449.15,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Allure Plus (Vogue) Tab     1x30",
+    "price": 172.27,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Almotan Tab 12.5mg",
+    "price": 375.47,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Aloban Tab",
+    "price": 194.38,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Alograce Cream     50gm",
+    "price": 476.09,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "Alorti Tab 10mg",
+    "price": 126.88,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Alpeeno Cap",
+    "price": 449.41,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Alpha KD Tab",
+    "price": 203.35,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Alphadol Cap 0.25mcg",
+    "price": 51.19,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Alphadol Cap 0.5mg",
+    "price": 492.88,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Alphagan Eye Drops 0.2%    5ml",
+    "price": 438.96,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Eye/Ear Drops"
+  },
+  {
+    "name": "Alphagan P Eye Drops 0.15%    5ml",
+    "price": 142.33,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Eye/Ear Drops"
+  },
+  {
+    "name": "Alphagan Z Eye Drops 0.1%    5ml",
+    "price": 397.92,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Eye/Ear Drops"
+  },
+  {
+    "name": "Alprax Tab 0.25mg",
+    "price": 457.45,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Alprax Tab 0.5mg",
+    "price": 365.55,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Alprax Tab 1mg",
+    "price": 455.98,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Alpraxatin Tab 0.25mg",
+    "price": 460.57,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Alpraxatin Tab 0.50mg",
+    "price": 320.98,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Alriiz Plus Hair Serum     60ml",
+    "price": 111.41,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Alsita E Tab 10mg/100mg",
+    "price": 418.55,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Alsita E Tab 25mg/100mg",
+    "price": 74.86,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Alsita M 50 Forte Tab 1000mg/50mg",
+    "price": 425.83,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Alsita MP Tab 500mg/100mg/15mg",
+    "price": 372.01,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Alsita Tab 100mg",
+    "price": 431.29,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Althrocin Tab 250mg",
+    "price": 123.28,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Althrocin Tab 500mg",
+    "price": 159.79,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Altonil Tab 10mg",
+    "price": 188.56,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Altonil Tab 3mg",
+    "price": 303.78,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Altonil Tab 5mg",
+    "price": 377.76,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Altraday Cap 20mg/200mg",
+    "price": 181.72,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Altraz Tab 1mg",
+    "price": 209.7,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Altris 5 Solution     60ml",
+    "price": 215.81,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Alzolam Tab 0.25mg",
+    "price": 370.28,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amace Tab 5mg/5mg",
+    "price": 136.91,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amalaki (Himalaya) Tab 250mg    1x60",
+    "price": 242.16,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amantex ER Tab 129mg",
+    "price": 66.77,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amantrel ER Tab 129mg",
+    "price": 281.27,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amantrel ER Tab 193mg",
+    "price": 322.74,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amantrel Tab 100mg",
+    "price": 152.16,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amaryl M 2 Forte Tab",
+    "price": 486.6,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amaryl M Forte Tab 1mg/1000mg",
+    "price": 369.34,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amaryl M Tab 1mg/500mg",
+    "price": 154.8,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amaryl M Tab 2mg/500mg",
+    "price": 125.65,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amaryl MV 1 Tab 0.2mg/1mg/500mg",
+    "price": 382.83,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amaryl MV 2 Tab 0.2mg/2mg/500mg",
+    "price": 243.6,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amaryl Tab 1mg",
+    "price": 477.93,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amaryl Tab 2mg",
+    "price": 377.38,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amaryl Tab 3mg",
+    "price": 97.03,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Ambrican Tab 5mg",
+    "price": 231.09,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Ambrodil S Syrup 1mg/15mg/5ml    100ml",
+    "price": 438.38,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Syrup"
+  },
+  {
+    "name": "Ambrodil Syrup     100ml",
+    "price": 465.78,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Syrup"
+  },
+  {
+    "name": "Ambrolite D Syrup     100ml",
+    "price": 21.21,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Syrup"
+  },
+  {
+    "name": "Ambrolite S Expt Syrup     100ml",
+    "price": 127.68,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Syrup"
+  },
+  {
+    "name": "Ambrolite Syrup 30mg/5ml    100ml",
+    "price": 465.22,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Syrup"
+  },
+  {
+    "name": "Ambulax Tab 0.25mg/20mg",
+    "price": 258.38,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amcard AT Tab",
+    "price": 88.65,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amcard Tab 2.5mg",
+    "price": 384.67,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amcard Tab 5mg",
+    "price": 99.57,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amdepin Tab 10mg",
+    "price": 108.02,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amdepin Tab 2.5mg",
+    "price": 283.05,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amdepin Tab 5mg",
+    "price": 470.26,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amh Fix Tab",
+    "price": 372.84,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amicline Tab 500mg",
+    "price": 43.17,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amifru Tab 40mg",
+    "price": 404.98,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amino Fit Softlet",
+    "price": 437.65,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Aminofit Forte (Orange Flavour) Sachet     4.5gm",
+    "price": 286.8,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Aminorich Capsules",
+    "price": 82.95,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Amitone Tab 10mg",
+    "price": 399.9,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amitop Tab 10mg",
+    "price": 349.55,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amla (Vogue) Tab     1x60",
+    "price": 52.36,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amlace Tab 5mg/5mg",
+    "price": 229.26,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amlip AT Tab 5mg/50mg",
+    "price": 225.87,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amlip Tab 10mg",
+    "price": 372.07,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amlip Tab 2.5mg",
+    "price": 150.84,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amlip Tab 5mg",
+    "price": 497.65,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amlodac AT Tab 5mg/50mg",
+    "price": 478.29,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amlodac Tab 10mg",
+    "price": 134.47,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amlodac Tab 2.5mg",
+    "price": 34.64,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amlodac Tab 5mg",
+    "price": 351.06,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amlogard Tab 10mg",
+    "price": 427.13,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amlogard Tab 2.5mg",
+    "price": 161.62,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amlogard Tab 5mg",
+    "price": 233.99,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amlokind AT Tab 5mg/50mg",
+    "price": 110.84,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amlokind H Tab 5mg/12.5mg",
+    "price": 288.57,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amlokind L Tab 5mg/50mg",
+    "price": 472.83,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amlokind Tab 10mg",
+    "price": 179.64,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amlokind Tab 2.5mg",
+    "price": 436.34,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amlokind Tab 5mg",
+    "price": 274.08,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amlong A Tab 25mg",
+    "price": 63.3,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amlong A Tab 5mg/50mg",
+    "price": 277.51,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amlong H Tab 5mg/12.5mg",
+    "price": 76.78,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amlong MT Tab 25mg",
+    "price": 299.66,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amlong MT Tab 50mg",
+    "price": 263.19,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amlong Tab 10mg",
+    "price": 392.28,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amlong Tab 2.5mg",
+    "price": 17.36,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amlong Tab 5mg",
+    "price": 229.9,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amlong Trio Tab 40mg/5mg/12.5mg",
+    "price": 222.92,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amlopin AT Tab 5mg/50mg",
+    "price": 413.88,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amlopin M Tab 50mg",
+    "price": 309.93,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amlopin Tab 5mg",
+    "price": 66.03,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amlopres Tab 10mg",
+    "price": 199.44,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amlopres Tab 2.5mg",
+    "price": 385.79,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amlopres Tab 5mg",
+    "price": 370.07,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amlopres TL Tab 5mg/40mg",
+    "price": 77.97,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amlopres-AT Tab 25mg",
+    "price": 341.16,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amlopres-AT Tab 5mg/50mg",
+    "price": 44.05,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amlopres-AT Tab 5mg/50mg    1x30",
+    "price": 433.8,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amlopress TL Tab 5mg/40mg",
+    "price": 222.97,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amlopress Trio Tab 5mg/40mg/12.5mg",
+    "price": 185.78,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amlosafe 3D Tab 5mg/40mg/12.5mg",
+    "price": 393.15,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amlosafe AT Tab 5mg/50mg",
+    "price": 264.8,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amlosafe Tab 10mg Tab",
+    "price": 75.95,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amlosafe Tab 2.5mg",
+    "price": 239.58,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amlosafe Tab 5mg",
+    "price": 125.34,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amlosafe TM Tab 5mg/40mg",
+    "price": 176.74,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amlovas AT Tab 5mg/50mg",
+    "price": 476.67,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amlovas H Tab 5mg/12.5mg",
+    "price": 313.38,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amlovas L Tab 5mg/5mg",
+    "price": 387.81,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amlovas M 5/25 Tab",
+    "price": 185.33,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amlovas M 5/50 Tab",
+    "price": 165.27,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amlovas Tab 2.5mg",
+    "price": 494.4,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amlovas Tab 5mg",
+    "price": 284.83,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amloz Tab 2.5mg",
+    "price": 330.29,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amloz TS Tab 5mg/40mg",
+    "price": 401.8,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amlozaar Tab 5mg/50mg",
+    "price": 210.89,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amlycure D.S. Syp     100ml",
+    "price": 239.71,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Amlycure D.S. Syp     200ml",
+    "price": 319.56,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Amlycure DS Cap",
+    "price": 362.83,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Amlycure-DS Syrup     100ml",
+    "price": 202.4,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Syrup"
+  },
+  {
+    "name": "Amnurite Tab 25mg/1500mcg",
+    "price": 498.22,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amodep Tab 5mg",
+    "price": 435.4,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amodep-AT Tab 5mg/50mg",
+    "price": 145.38,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amortive Cream 0.25%/1%    10gm",
+    "price": 389.55,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "Amoxyclav Tab 1000mg",
+    "price": 111.5,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amoxyclav Tab 625mg",
+    "price": 177.93,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amplinak Eye Drops     5ml",
+    "price": 228.01,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Eye/Ear Drops"
+  },
+  {
+    "name": "Amri Q10 Cap",
+    "price": 459.35,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Amroid Ointment     20gm",
+    "price": 140.87,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "Amroid Tab     1x30",
+    "price": 456.4,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amrolstar Nail Lacquer Solution 5%w/v    2.5ml",
+    "price": 152.87,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Amtas AT 50 Tab 5mg/50mg",
+    "price": 279.07,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amtas AT Tab 25mg",
+    "price": 272.22,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amtas M Tab 25mg",
+    "price": 222.41,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amtas M Tab 50mg",
+    "price": 49.16,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amtas Tab 10mg",
+    "price": 436.22,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amtas Tab 2.5mg",
+    "price": 99.22,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amtas Tab 5mg",
+    "price": 192.81,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Amycordial Syrup     200ml",
+    "price": 443.09,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Syrup"
+  },
+  {
+    "name": "Amyron Syrup     200ml",
+    "price": 407.38,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Syrup"
+  },
+  {
+    "name": "Anaboom AD Shampoo     100ml",
+    "price": 87.79,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Anaboom Pro Advanced Hair Growth Serum     60ml",
+    "price": 237.59,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Anabrez Tab 1mg",
+    "price": 312.47,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Analiv Tab 500mg",
+    "price": 333.6,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Ancal Forte Tab",
+    "price": 306.16,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Andre I Kul Eye Drops     10ml",
+    "price": 23.29,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Eye/Ear Drops"
+  },
+  {
+    "name": "Andre I-Kul NF Eye Drops     10ml",
+    "price": 194.86,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Eye/Ear Drops"
+  },
+  {
+    "name": "Androanagen Tab",
+    "price": 194.99,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Androwin Cap",
+    "price": 233.78,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Angelskin Cream 15%    100gm",
+    "price": 236.13,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "Angicam Beta Tab 5mg/50mg",
+    "price": 446.51,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Angispan-TR Cap 6.5mg    30 x 1",
+    "price": 384.12,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Angispan-TR Tab 2.5mg    25 x 1",
+    "price": 149.17,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Angispan-TR Tab 2.5mg    30 X 1",
+    "price": 425.56,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Angizaar Tab 25mg",
+    "price": 237.76,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Angizem CD Cap 120mg",
+    "price": 81.9,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Anglit Tab 2.6mg",
+    "price": 52.14,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Ankopep Softgel",
+    "price": 496.98,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "Anleo Dsr Tab 40mg/30mg",
+    "price": 479.66,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Anleo Tab 40mg",
+    "price": 454.71,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Anobliss Cream 0.3%/1.5%w/w    30gm",
+    "price": 91.65,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "Anoscha Forte Tab 750mg",
+    "price": 126.16,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Anovate Cream     20gm",
+    "price": 457.87,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "Ansuper Plus Cap 20mg",
+    "price": 383.32,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Antiflu Cap 75mg",
+    "price": 360.22,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Antiflu Syrup 12mg/ml    75ml",
+    "price": 340.63,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Syrup"
+  },
+  {
+    "name": "Antoxid Cap",
+    "price": 223.89,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Antoxid HC Cap",
+    "price": 25.03,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Anvimo Tab 240mg",
+    "price": 496.23,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Anxit Tab 0.25mg",
+    "price": 295.82,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Anxit Tab 0.5mg",
+    "price": 29.16,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Anxozap Tab 10mg",
+    "price": 474.77,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Apcod Sachet 5gm",
+    "price": 445.71,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Apcod Softule Cap",
+    "price": 33.45,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Apdrops Eye Drops 0.5%w/v    5ml",
+    "price": 274.95,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Eye/Ear Drops"
+  },
+  {
+    "name": "Apiban Tab 5mg",
+    "price": 48.33,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Apidra Cartridge 100 IU    3ml",
+    "price": 170.86,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Apidra Solostar Pen Inj     3ml",
+    "price": 317.36,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Injection"
+  },
+  {
+    "name": "Apigat Tab 2.5mg",
+    "price": 288.2,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Apigat Tab 5mg    1x30",
+    "price": 297.84,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Apigy Tab 2.5mg",
+    "price": 384.39,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Apigy Tab 5mg",
+    "price": 366.09,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Apixapil Tab 5mg",
+    "price": 223.15,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Apixator Tab 2.5mg",
+    "price": 441.85,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Aplazar Tab",
+    "price": 166.11,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Aplovir Lozenges Tab",
+    "price": 280.38,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Apnat Tab 60mg    1x120",
+    "price": 205.03,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Aprezo Tab 10mg",
+    "price": 251.66,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Aprezo Tab 20mg",
+    "price": 35.59,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Aprezo Tab 30mg",
+    "price": 157.92,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Apriglim M Tab 1mg/500mg",
+    "price": 429.03,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Apriglim MV 303 Tab",
+    "price": 400.44,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Apriglim MV1 Tab 0.2mg/1mg/500mg",
+    "price": 423.17,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Aptimust Syrup     200ml",
+    "price": 259.53,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Syrup"
+  },
+  {
+    "name": "Aptivate Syrup     175ml",
+    "price": 98.77,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Syrup"
+  },
+  {
+    "name": "Apurtia Max Cap",
+    "price": 119.18,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Aqua D3 60K Cap 60000IU",
+    "price": 289.67,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Aqua D3 Nano Sugar Free Solution 60000IU    5ml",
+    "price": 220.93,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Aqua Oat Lotion     250ml",
+    "price": 40.24,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Aqua Oat Moist Lotion Lotion     100ml",
+    "price": 16.18,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Aqua Oat Moisturzing Lotion     250ml",
+    "price": 328.01,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Aqua Touchmed Spf50 Pa+++ Silicone Sunscreen Gel     50gm",
+    "price": 335.19,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "Aquaderm Face & Body Wash      200ml",
+    "price": 222.78,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Personal Care"
+  },
+  {
+    "name": "Aquahance Advanced Night  Repair Serum     25ml",
+    "price": 253.91,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Aquahance Hair Revitalizing Conditioner     150gm",
+    "price": 387.63,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Aquanac Eye Drops     10ml",
+    "price": 324.8,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Eye/Ear Drops"
+  },
+  {
+    "name": "Aquaoat Lotion     250ml",
+    "price": 155.55,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Aquaray Plus Eye Drops 0.5%    10ml",
+    "price": 188.21,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Eye/Ear Drops"
+  },
+  {
+    "name": "Aquashine Shots 60K SF Solution 60000IU    5ml",
+    "price": 372.13,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Aquasoft Day SPF 50+ Cream     50gm",
+    "price": 393.92,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "Aquasoft Day SPF 50+ Cream     75gm",
+    "price": 128.15,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "Aquasoft FC Advanced Cream     100gm",
+    "price": 207.09,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "Aquasoft FC Advanced Facial Moisturizer Cream     60gm",
+    "price": 276.7,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "Aquasoft Max Intensive Moist Cream     150gm",
+    "price": 226.95,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "Aquasoft Moisturing Lotion     200ml",
+    "price": 445.01,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Aquasoft Moisturizer Cream 15%w/w    150gm",
+    "price": 241.13,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "Aquasoft Night Cream     50gm",
+    "price": 156.99,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "Aquasoft S Soap",
+    "price": 253.59,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Aquasol A Cap     1x30",
+    "price": 385.52,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Aquasurge Eye Drops     10ml",
+    "price": 361.06,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Eye/Ear Drops"
+  },
+  {
+    "name": "Aquaviron Cap 40mg",
+    "price": 211.39,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Aquaviron Inj     1ml",
+    "price": 391.16,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Injection"
+  },
+  {
+    "name": "Aquazide Tab 12.5mg",
+    "price": 423.79,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Aquazide Tab 25mg",
+    "price": 359.33,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Aquim Pf Eye Drops 0.1%w/v    10ml",
+    "price": 317.7,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Eye/Ear Drops"
+  },
+  {
+    "name": "Aqurea 20 Moisturizing Urea Cream     100gm",
+    "price": 435.16,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "Ara Lubricating Eye Gel 0.3%w/w    10gm",
+    "price": 14.37,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "Arachitol Inj 3 Lac IU/ml 1ml",
+    "price": 238.12,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Injection"
+  },
+  {
+    "name": "Arachitol Inj 6 Lac IU/ml 1ml",
+    "price": 256.58,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Injection"
+  },
+  {
+    "name": "Arachitol Nano Oral Solution 60000 IU/5ml    5ml",
+    "price": 352.72,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Arbazeal ES Tab 40mg",
+    "price": 419.48,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Arbitel AM Tab 40mg/5mg",
+    "price": 466.33,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Arbitel AV Tab 40mg/10mg",
+    "price": 383.54,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Arbitel CT Tab 40mg/12.5mg",
+    "price": 254.19,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Arbitel H Tab 40mg",
+    "price": 336.77,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Arbitel H Tab 40mg",
+    "price": 476.7,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Arbitel MT Tab 25mg/40mg",
+    "price": 223.53,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Arbitel Tab 20mg",
+    "price": 485.37,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Arbitel Tab 40mg",
+    "price": 36.01,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Arbitel Trio Tab 25mg",
+    "price": 377.16,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Arbitel Trio Tab 50mg",
+    "price": 109.26,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Arbivit 3 Syrup 600IU/5ml    60ml",
+    "price": 294.14,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Syrup"
+  },
+  {
+    "name": "Arcalion Tab",
+    "price": 207.82,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "ARG 9 Granules     5gm",
+    "price": 305.12,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Argihope Sachet     5gm",
+    "price": 445.3,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Argihope Tab 1000mg",
+    "price": 22.49,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Argin Sachet     5gm",
+    "price": 44.65,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Argipic Sachet     10gm",
+    "price": 466.44,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Argipreg Sachet 3gm/75mg    6.5g",
+    "price": 277.62,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Argiprime Sachet 3gm/75mg    6gm",
+    "price": 261.66,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Argitas Sachet     10gm",
+    "price": 470.43,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Argiwish Tab 1000mg",
+    "price": 185.44,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Aricep M Tab",
+    "price": 147.57,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Aricep SR Tab 23mg",
+    "price": 449.5,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Aricep Tab 10mg",
+    "price": 384.82,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Aricep Tab 5mg",
+    "price": 496.72,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Arimidex Tab 1mg",
+    "price": 307.91,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Arioat Hand and Body Wash      150ml",
+    "price": 85.0,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Personal Care"
+  },
+  {
+    "name": "Arioat Hand and Body Wash      300ml",
+    "price": 361.05,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Personal Care"
+  },
+  {
+    "name": "Arip MT Tab 10mg",
+    "price": 396.44,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Arip MT Tab 15mg",
+    "price": 292.19,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Arip MT Tab 2mg",
+    "price": 357.43,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Arip MT Tab 5mg",
+    "price": 398.24,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Aristozyme Cap",
+    "price": 164.86,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Aristozyme Drops     15ml",
+    "price": 385.18,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Eye/Ear Drops"
+  },
+  {
+    "name": "Aristozyme Gold Tab",
+    "price": 313.56,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Aristozyme Liquid     200ml",
+    "price": 73.07,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Arjuna (Himalaya) Cap     1x60",
+    "price": 274.36,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Arjuna (Vogue) Tab     1x60",
+    "price": 413.57,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Arkamin Tab 100mcg",
+    "price": 205.27,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Armotraz Tab 1mg",
+    "price": 310.34,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Arney Tab 50mg",
+    "price": 456.54,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Arnicor 50 Tab 24mg+ 26mg",
+    "price": 370.57,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Arnicor Tab 100mg",
+    "price": 160.3,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Aromasin Tab 25mg",
+    "price": 240.35,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Aroraft Liquid     200ml",
+    "price": 175.29,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Arpimune ME Cap 50mg",
+    "price": 401.48,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Arpizol Tab 10mg",
+    "price": 360.19,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Arpizol Tab 15mg",
+    "price": 325.24,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Arpizol Tab 2mg",
+    "price": 122.84,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Arpizol Tab 5mg",
+    "price": 405.08,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Arvast CF Cap 10mg/135mg",
+    "price": 441.44,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Arvast F Tab 5mg/67mg",
+    "price": 476.12,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Arvast F10 Tab 10mg/67mg",
+    "price": 418.92,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Arvast Tab 10mg",
+    "price": 154.46,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Arvast Tab 30mg",
+    "price": 136.35,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Arvast Tab 40mg",
+    "price": 459.16,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Arvast Tab 5mg",
+    "price": 303.04,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Arydite DF Sugar Free Chocolate Powder     200gm",
+    "price": 16.98,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Powder"
+  },
+  {
+    "name": "Arzep  Nasal Spray    10ml",
+    "price": 221.13,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Spray"
+  },
+  {
+    "name": "Arzu Tab 10mg",
+    "price": 301.41,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Asar Tab 40mg",
+    "price": 239.34,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Ascabiol Lotion     120ml",
+    "price": 324.95,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Ascazin Tab",
+    "price": 385.19,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Ascobate XT Tab",
+    "price": 60.08,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Ascoril C Syrup     120ml",
+    "price": 119.17,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Syrup"
+  },
+  {
+    "name": "Ascoril D Plus Syrup     100ml",
+    "price": 102.32,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Syrup"
+  },
+  {
+    "name": "Ascoril LS Junior Expectorant     100ml",
+    "price": 440.89,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Ascoril LS Junior Expectorant     60ml",
+    "price": 326.12,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Ascoril LS Oral Drops     15ml",
+    "price": 294.66,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Eye/Ear Drops"
+  },
+  {
+    "name": "Ascoril LS Syrup     100ml",
+    "price": 303.44,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Syrup"
+  },
+  {
+    "name": "Ascoril Plus Expt     120ml",
+    "price": 274.81,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Ascoril SF Syrup     100ml",
+    "price": 493.11,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Syrup"
+  },
+  {
+    "name": "Ashg Gold Tab",
+    "price": 83.91,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Ashmont-M Tab 5mg/10mg",
+    "price": 241.19,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Ashwagandha (Himalaya) Tab 250mg    60x1",
+    "price": 84.66,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Ashwagandha (Pure Ayurveda) Cap     1x60",
+    "price": 318.53,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Ashwagandha (Vogue) Tab     1x60",
+    "price": 59.06,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Ashwagandha 3 Way Action (Vogue) Tab     1x60",
+    "price": 19.73,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Asmygaba NT Tab 400mg/10mg",
+    "price": 428.0,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Asmymax Tab 400mg",
+    "price": 91.34,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Asomex AT Tab 2.5mg/50mg",
+    "price": 476.73,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Asomex AT Tab 5mg",
+    "price": 163.33,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Asomex Tab 2.5mg",
+    "price": 112.99,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Asomex Tab 5mg",
+    "price": 305.55,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Asomex TM Tab 2.5mg/40mg",
+    "price": 362.04,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Asomex TM Tab 5mg/40mg",
+    "price": 251.46,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Asprito Tab 10mg",
+    "price": 467.65,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Asprito Tab 20mg",
+    "price": 499.35,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Asprito Tab 20mg",
+    "price": 194.46,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Asprito Tab 2mg",
+    "price": 441.09,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Asprito Tab 5mg",
+    "price": 48.03,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Asta Fizz Sugar Free Effervescent Tab",
+    "price": 393.45,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Astacar Q Tab",
+    "price": 45.38,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Astesol D3 Oral Drops 800iu    15ml",
+    "price": 42.33,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Eye/Ear Drops"
+  },
+  {
+    "name": "Asthakind (Sugar Free) Expectorant 1.25mg/2mg/50mg    100ml",
+    "price": 50.17,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Asthakind DX Junior Syrup     60ml",
+    "price": 85.2,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Syrup"
+  },
+  {
+    "name": "Asthakind DX Syrup     100ml",
+    "price": 318.79,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Syrup"
+  },
+  {
+    "name": "Asthakind LS (Sugar Free) Expectorant     100ml",
+    "price": 263.69,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Asthakind P Oral Drops     15ml",
+    "price": 200.46,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Eye/Ear Drops"
+  },
+  {
+    "name": "Asthakind Pro Syrup     100ml",
+    "price": 169.56,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Syrup"
+  },
+  {
+    "name": "Asthakind Syrup     100ml",
+    "price": 201.03,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Syrup"
+  },
+  {
+    "name": "Asthalin Inhaler 100mcg    200MD",
+    "price": 460.99,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Asthalin Respules     2.5ml",
+    "price": 180.17,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Asthalin Rotacaps 200mcg    1x60s",
+    "price": 147.94,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Asthalin Syrup 2mg/5ml    100ml",
+    "price": 360.88,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Syrup"
+  },
+  {
+    "name": "Asthalin Tab 2mg",
+    "price": 67.73,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Asthalin Tab 4mg",
+    "price": 389.89,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Asthim Tab 100mg",
+    "price": 213.15,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Asthoque Tab",
+    "price": 456.68,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Astin Tab 10mg",
+    "price": 424.93,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Astium D3 Tab 500mg/400iu",
+    "price": 402.06,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Astium D3 UC Tab",
+    "price": 494.02,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Astyfer XT Tab",
+    "price": 124.54,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Astymin C Drops     15ml",
+    "price": 249.96,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Eye/Ear Drops"
+  },
+  {
+    "name": "Astymin M Forte Tab",
+    "price": 489.38,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Asunra Tab 400mg",
+    "price": 159.93,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Atarax Anti Itch Lotion     100ml",
+    "price": 146.91,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Atarax Drops     15ml",
+    "price": 201.12,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Eye/Ear Drops"
+  },
+  {
+    "name": "Atarax SR Tab 50mg",
+    "price": 71.16,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Atarax Syrup     100ml",
+    "price": 225.95,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Syrup"
+  },
+  {
+    "name": "Atarax Tab 10mg",
+    "price": 336.37,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Atarax Tab 25mg",
+    "price": 11.23,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Atchol F Tab",
+    "price": 480.82,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Atchol Tab 20mg",
+    "price": 19.22,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Atecard Tab 25mg",
+    "price": 252.12,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Aten AM Tab 5mg/50mg",
+    "price": 206.44,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Aten Tab 25mg",
+    "price": 274.9,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Aten Tab 50mg",
+    "price": 55.3,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Ativan Tab 1mg",
+    "price": 236.82,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Ativan Tab 2mg",
+    "price": 344.39,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "ATM Tab 500mg",
+    "price": 121.75,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Atocor CV Cap 10mg/75mg",
+    "price": 272.68,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Atocor CV Cap 20mg/75mg",
+    "price": 264.24,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Atocor F Tab 10mg/160mg",
+    "price": 351.29,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Atocor Tab 10mg",
+    "price": 442.29,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Atocor Tab 20mg",
+    "price": 265.96,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Atocor Tab 5mg",
+    "price": 226.03,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Atogla Cream     100gm",
+    "price": 89.84,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "Atogla Lotion     200ml",
+    "price": 349.63,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Atogla Probio OD Veg Cap 10 Billion",
+    "price": 24.21,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Atogla Probio Sachet Granules     0.75gm",
+    "price": 16.07,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Atogla Resyl Lotion     250ml",
+    "price": 196.73,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Atonide Cream 0.5%w/w    20gm",
+    "price": 102.16,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "Atorec Tab 10mg",
+    "price": 396.01,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Atorfit CV Cap 20mg/75mg",
+    "price": 216.2,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Atorlip ASP Cap 20mg/75mg",
+    "price": 471.37,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Atorlip F Tab 10mg/145mg",
+    "price": 377.32,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Atorlip Tab 10mg",
+    "price": 381.54,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Atorlip Tab 20mg",
+    "price": 163.75,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Atorlip Tab 40mg",
+    "price": 312.36,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Atorlip Tab 5mg",
+    "price": 368.37,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Atormac Tab 10mg",
+    "price": 87.68,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Atormac Tab 5mg",
+    "price": 244.65,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Atorsave F Tab",
+    "price": 190.43,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Atorsave Tab 10mg",
+    "price": 350.53,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Atorsave Tab 20mg",
+    "price": 497.04,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Atorva ASP Tab 75mg",
+    "price": 156.56,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Atorva E Tab",
+    "price": 455.93,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Atorva E Tab 40mg/10mg",
+    "price": 469.45,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Atorva Tab 10mg",
+    "price": 373.98,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Atorva Tab 20mg",
+    "price": 286.45,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Atorva Tab 40mg",
+    "price": 456.89,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Atorva Tab 5mg",
+    "price": 251.48,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Atorva Tab 80mg",
+    "price": 100.39,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Atrodex C Eye Drops     5ml",
+    "price": 305.77,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Eye/Ear Drops"
+  },
+  {
+    "name": "Augmentin Duo Dry Syrup     30ml",
+    "price": 91.29,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Syrup"
+  },
+  {
+    "name": "Augmentin Duo Duble Strength Syrup     30ml",
+    "price": 219.87,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Syrup"
+  },
+  {
+    "name": "Augmentin Duo Tab 1000mg",
+    "price": 74.94,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Augmentin Duo Tab 625mg",
+    "price": 361.27,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Augmentin ES Suspension     50ml",
+    "price": 328.15,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Augmentin Tab 375mg",
+    "price": 13.42,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Augpen LB Tab 625mg",
+    "price": 382.23,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Augumet 625 LB Tab",
+    "price": 378.7,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Autrin Cap",
+    "price": 160.32,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Autrin XT Tab",
+    "price": 12.46,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Auxibion LC Tab",
+    "price": 175.1,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Avamys Nasal Spray 27.5mcg/MD    120MD",
+    "price": 475.42,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Spray"
+  },
+  {
+    "name": "Avanair Tab 100mg",
+    "price": 417.44,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Avanair Tab 200mg",
+    "price": 216.09,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Avarta  Anti Ageing Cream     50gm",
+    "price": 217.19,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "Avas CV Cap 10mg/75mg",
+    "price": 28.94,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Avas Tab 10mg",
+    "price": 70.29,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Avas Tab 10mg",
+    "price": 96.96,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Avas Tab 20mg",
+    "price": 200.62,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Avas Tab 40mg",
+    "price": 107.9,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Avas Tab 5mg",
+    "price": 217.69,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Aveil SPF 50 Heat Shield Sunscreen Gel     50ml",
+    "price": 147.69,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "Avil Amp Inj     2ml",
+    "price": 482.21,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Injection"
+  },
+  {
+    "name": "Avil Tab 25mg",
+    "price": 438.76,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Avil Tab 50mg",
+    "price": 53.72,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Aviron XT Cap",
+    "price": 182.61,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Avitin 7 Tab",
+    "price": 228.15,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Avomine Tab 25mg",
+    "price": 275.32,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Axbex NF Tab",
+    "price": 24.77,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Axcelto 2.5mg Tab 2.5mg",
+    "price": 212.65,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Axcer Tab 90mg",
+    "price": 251.51,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Axepta Tab 10mg",
+    "price": 272.13,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Axepta Tab 18mg",
+    "price": 68.42,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Axepta Tab 25mg",
+    "price": 197.05,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Axepta Tab 40mg",
+    "price": 98.83,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Axogermina Oral Susp 2Billions    5ml",
+    "price": 71.25,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Axonet Tab 150mg",
+    "price": 477.23,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Azarga Eye Drops 10mg/5mg    5ml",
+    "price": 121.98,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Eye/Ear Drops"
+  },
+  {
+    "name": "Azax Syrup 200mg/5ml    15ml",
+    "price": 24.57,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Syrup"
+  },
+  {
+    "name": "Azax Tab 250mg",
+    "price": 309.54,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Azax Tab 500mg",
+    "price": 290.22,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Azax Tab 500mg",
+    "price": 398.55,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Azee 100 Liquid 100mg    15ml",
+    "price": 77.71,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Azee 200 Dry Syrup     15ml",
+    "price": 397.65,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Syrup"
+  },
+  {
+    "name": "Azee 200 Liquid     15ml",
+    "price": 118.68,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Azee Tab 250mg",
+    "price": 192.96,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Azee Tab 500mg",
+    "price": 469.09,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Azee XL Liquid 200mg    30ml",
+    "price": 57.6,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Azeflo Nasal Spray  50mcg/140mcg    70md",
+    "price": 312.93,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Spray"
+  },
+  {
+    "name": "Azel Tab 160mg",
+    "price": 261.63,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Azelia Biotin & Collagen Supplement Tab     1x30",
+    "price": 64.33,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Azelia Face Wash     100ml",
+    "price": 380.08,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Personal Care"
+  },
+  {
+    "name": "Azerva Tab 40mg",
+    "price": 266.1,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Azicip Tab 250mg",
+    "price": 333.78,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Azicip Tab 500mg",
+    "price": 156.73,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Aziclear Serum     30ml",
+    "price": 69.52,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Aziderm Cream 10%    15gm",
+    "price": 51.34,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "Aziderm Cream 20%    15gm",
+    "price": 464.79,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "Aziderm Gel 10%w/w    15gm",
+    "price": 390.99,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "Aziderm Gel 15%w/w    15gm",
+    "price": 25.95,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "Aziderm Gel 20%    15gm",
+    "price": 60.81,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "Aziderm Plus Cream     15gm",
+    "price": 267.66,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "Azifast Tab 500mg",
+    "price": 23.48,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Azithral Tab 250mg",
+    "price": 74.88,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Azithral Tab 500mg",
+    "price": 275.36,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Azithral XL Liquid 200mg    30ml",
+    "price": 76.31,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Azithral XL Liquid 200mg    60ml",
+    "price": 263.63,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Azithral-100 Liquid     15ml",
+    "price": 197.39,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Azithral-200 Liquid     15ml",
+    "price": 185.3,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Aziwok Tab 500mg",
+    "price": 171.13,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Azmarda Tab 200mg",
+    "price": 483.94,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Azmarda Tab 50mg",
+    "price": 16.62,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Azopt Eye Drops 1%    5ml",
+    "price": 82.32,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Eye/Ear Drops"
+  },
+  {
+    "name": "Azoran Tab 25mg",
+    "price": 36.57,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Azoran Tab 50mg",
+    "price": 211.07,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Azoran Tab 75mg",
+    "price": 179.9,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Azovas T Tab 40mg/8mg",
+    "price": 481.19,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Aztolet Tab 10mg/75mg",
+    "price": 18.23,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Aztolet Tab 20mg/75mg",
+    "price": 262.04,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Aztor ASP Tab 75mg",
+    "price": 188.4,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Aztor EZ Tab",
+    "price": 130.47,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Aztor Tab 10mg",
+    "price": 197.48,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Aztor Tab 20mg",
+    "price": 372.87,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Aztor Tab 40mg",
+    "price": 227.78,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Aztor Tab 5mg",
+    "price": 56.97,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Aztor Tab 80mg",
+    "price": 88.4,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Aztric CT Tab 40mg/12.5mg",
+    "price": 114.06,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Aztric Tab 80mg",
+    "price": 110.09,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Azulix 0.5 MF Tab 0.5mg/500mg",
+    "price": 373.94,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Azulix 2 MF Forte Tab 1000mg/2mg",
+    "price": 12.78,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Azulix 2 MF Tab 500mg/2mg",
+    "price": 263.2,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Azulix MF Forte Tab 3mg/1000mg",
+    "price": 178.65,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Azulix MF Forte Tab 4mg/1000mg",
+    "price": 303.97,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Azulix MF Tab 1mg/500mg",
+    "price": 446.64,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Azulix MF Tab 4mg/500mg",
+    "price": 135.54,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Azulix MV Tab 1mg/0.3mg",
+    "price": 409.47,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Azulix MV Tab 2mg/0.2mg",
+    "price": 456.24,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Azulix SM IR Tab 50mg/1000mg/2mg",
+    "price": 113.1,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Azulix Tab 1mg",
+    "price": 275.9,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Azulix Tab 2mg",
+    "price": 461.55,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "B 29 Tab",
+    "price": 70.76,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "B 29 Tab",
+    "price": 291.85,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "B Active Tab     1x30",
+    "price": 432.05,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "B Colex Cap",
+    "price": 66.12,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "B Muce Ointment     5gm",
+    "price": 231.33,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "B Protin (Chocolate Flavour) Powder     500gm",
+    "price": 150.97,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Powder"
+  },
+  {
+    "name": "B Protin Chocolate Powder     200gm",
+    "price": 458.79,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Powder"
+  },
+  {
+    "name": "B-complex Cap",
+    "price": 407.34,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "B-D Alcohal Swab",
+    "price": 192.41,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "B-Long F Tab",
+    "price": 326.69,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "B-Long Tab",
+    "price": 211.37,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "B4 Nappi Cream     75gm",
+    "price": 192.72,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "Bacilon Probiotic Liquid 2billion    5ml",
+    "price": 340.43,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Baclof OD Tab 20mg",
+    "price": 445.33,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Baclof OD Tab 20mg",
+    "price": 203.96,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Baclof Tab 10mg",
+    "price": 398.08,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Baclof Tab 10mg",
+    "price": 467.41,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Bacstol Tab 200mg",
+    "price": 117.54,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Bactblend Cap",
+    "price": 261.85,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Bactigras 10cmx10cm",
+    "price": 120.54,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Bactomin Tab 375mg",
+    "price": 304.26,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Bactrim DS Tab",
+    "price": 248.36,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Baidyanath Isabgol Husk Powder     100gm",
+    "price": 371.68,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Powder"
+  },
+  {
+    "name": "Baidyanath Isabgol Husk Powder     200gm",
+    "price": 232.71,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Powder"
+  },
+  {
+    "name": "Baidyanath Triphala Churna     500gm",
+    "price": 32.22,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Balanerve Tab 75mg/10mg/1500mcg",
+    "price": 406.75,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Banatan Cream     50gm",
+    "price": 411.56,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "Bandage  2 Inch",
+    "price": 338.61,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Bandage  3 Inch",
+    "price": 74.88,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Bandage  4 Inch",
+    "price": 139.19,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Bandage  6 Inch",
+    "price": 262.84,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Bandy Plus Syrup     10ml",
+    "price": 195.99,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Syrup"
+  },
+  {
+    "name": "Bandy Plus Tab 12mg/400mg",
+    "price": 436.9,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Bandy Plus Tab 400mg/6mg",
+    "price": 76.14,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Bandy Susp 200mg/5ml    10ml",
+    "price": 74.73,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Bandy Tab 400mg",
+    "price": 98.06,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Banocide Forte Tab 100mg",
+    "price": 489.17,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Basaglar Cartridges Inj 100Units    3ml",
+    "price": 490.53,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Injection"
+  },
+  {
+    "name": "Basugine Insulin Cartridge     3ml",
+    "price": 264.96,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Batcium K-2 Softgel",
+    "price": 473.43,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "Bayers Tonic     250ml",
+    "price": 158.97,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "BD Insulin  Syringe 40U 31G 1s      1ml",
+    "price": 466.32,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "BD Insulin Syringe 100iu/1ml",
+    "price": 250.21,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "BD Ultra fine III  4mm Pen Needle",
+    "price": 354.73,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "BD Ultra fine III  5mm Pen Needle",
+    "price": 96.01,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Beanalog DS Tab",
+    "price": 10.81,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Bebless M Sachet     10.5gm",
+    "price": 392.08,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Becadexamin Cap     1x60",
+    "price": 31.61,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Becosules Cap",
+    "price": 236.68,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Becosules Performance Cap",
+    "price": 439.73,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Becosules Syrup     120ml",
+    "price": 304.35,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Syrup"
+  },
+  {
+    "name": "Becosules Syrup     200ml",
+    "price": 173.52,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Syrup"
+  },
+  {
+    "name": "Becosules Z Cap",
+    "price": 263.95,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Becozest Z Cap",
+    "price": 487.42,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Becozinc Cap",
+    "price": 373.58,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Becozym C Forte Tab",
+    "price": 242.37,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Belladona Plaster",
+    "price": 179.34,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Beltas Tab 20mg",
+    "price": 334.65,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Bemdac EZ Tab 180mg/ 10mg",
+    "price": 216.88,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Bemezy Tab 180mg/ 10mg",
+    "price": 282.73,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Bempesta EZ Tab 180mg/ 10mg",
+    "price": 414.79,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Bempesta Tab 180mg",
+    "price": 325.18,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Bemzire EZ Tab 180mg/ 10mg",
+    "price": 225.22,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Bemzire Tab 180mg",
+    "price": 85.71,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Benadon Tab 40mg",
+    "price": 299.07,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Benadryl Cough Formula      150ml",
+    "price": 148.34,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Benadryl Cough Formula      50ml",
+    "price": 317.45,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Benadryl DR Syrup     100ml",
+    "price": 145.12,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Syrup"
+  },
+  {
+    "name": "Benalgis Tab 100mg",
+    "price": 181.52,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Beneficiale Cap",
+    "price": 478.94,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Benfomega Cap",
+    "price": 388.04,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Benfomega Xl Cap",
+    "price": 56.36,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Benfomet Forte Tab",
+    "price": 285.23,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Benfomet Plus Cap",
+    "price": 268.16,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Bengreat Tab 4mg",
+    "price": 156.98,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Beniduce Tab 4mg",
+    "price": 239.14,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Benitowa Tab 4mg",
+    "price": 355.97,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Benitowa Tab 8mg",
+    "price": 187.24,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Benizep Cap",
+    "price": 276.67,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Benj Tab 2mg",
+    "price": 138.19,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Benoquin Cream 20%    30gm",
+    "price": 271.8,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "Benxop Face Wash 4%    50gm",
+    "price": 21.8,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Personal Care"
+  },
+  {
+    "name": "Benz Pearls Cap 100mg",
+    "price": 189.05,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Benzac AC Gel 2.5%    30gm",
+    "price": 293.56,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "Benzac AC Gel 5%    30gm",
+    "price": 78.01,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "Benzac AC Wash Gel 5%    100ml",
+    "price": 215.51,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "Benzonix Wash Gel 5%    50gm",
+    "price": 260.12,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "Beplex Forte Tab",
+    "price": 253.89,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Bepofree Eye Drops 1.5%w/v    5ml",
+    "price": 354.97,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Eye/Ear Drops"
+  },
+  {
+    "name": "Berbeshine Tab 500mg",
+    "price": 277.08,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Beritol Tab",
+    "price": 150.18,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Besilet Tab 12mg",
+    "price": 106.48,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Bestbro Q 10 Cap",
+    "price": 397.11,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Bestozyme Cap",
+    "price": 254.08,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Bestozyme Syrup     250ml",
+    "price": 80.53,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Syrup"
+  },
+  {
+    "name": "Beta Nicardia Cap",
+    "price": 242.55,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Betacap Cap 10mg",
+    "price": 258.78,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Betacap Tab 20mg",
+    "price": 164.67,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Betacap TR Cap 20mg",
+    "price": 241.61,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Betacap TR Cap 40mg",
+    "price": 476.98,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Betacap TR Cap 60mg",
+    "price": 149.97,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Betacard Tab 25mg",
+    "price": 94.99,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Betacard Tab 50mg",
+    "price": 195.42,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Betadine Gargle  2% (Mint)    100ml",
+    "price": 424.94,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Betadine Gargle  2% (Mint)    50ml",
+    "price": 263.0,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Betadine Oint 10%    20gm",
+    "price": 176.03,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Betadine Powder     10gm",
+    "price": 368.62,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Powder"
+  },
+  {
+    "name": "Betadine Solution 10%w/v    100ml",
+    "price": 228.5,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Betadine Solution 10%w/v    500ml",
+    "price": 132.85,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Betadine Solution 5%    500ml",
+    "price": 409.85,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Betadine Solution 5%w/v    100ml",
+    "price": 245.73,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Betakind Gargle  2%    50ml",
+    "price": 295.68,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Betaloc Tab 25mg",
+    "price": 405.45,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Betaloc Tab 25mg",
+    "price": 476.92,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Betaloc Tab 50mg",
+    "price": 382.07,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Betaloc Tab 50mg",
+    "price": 274.77,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Betamax M Tab",
+    "price": 427.09,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Betamil GM Cream     30gm",
+    "price": 418.86,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "Betasalic Oint     20gm",
+    "price": 401.98,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Betavert OD Tab 24mg",
+    "price": 448.13,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Betavert Tab 16mg",
+    "price": 499.82,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Betavert Tab 8mg",
+    "price": 421.25,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Betheran Tab 25mg",
+    "price": 497.86,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Betnesol Forte Tab 1mg",
+    "price": 285.51,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Betnesol Oral Drops     15ml",
+    "price": 346.4,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Eye/Ear Drops"
+  },
+  {
+    "name": "Betnesol Tab 0.5mg",
+    "price": 186.46,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Betnovate C Cream     30gm",
+    "price": 169.67,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "Betnovate Cream     20gm",
+    "price": 24.89,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "Betnovate GM Cream     20gm",
+    "price": 15.95,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "Betnovate S Ointment     20gm",
+    "price": 34.26,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "Betnovate-N Cream     25gm",
+    "price": 262.89,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "Betoact Eye Drops 1.5%    5ml",
+    "price": 193.3,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Eye/Ear Drops"
+  },
+  {
+    "name": "Betonin AST Syrup     200ml",
+    "price": 251.6,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Syrup"
+  },
+  {
+    "name": "Betonin AST Syrup     420ml",
+    "price": 243.99,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Syrup"
+  },
+  {
+    "name": "Betonin AST Syrup     450ml",
+    "price": 59.95,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Syrup"
+  },
+  {
+    "name": "Betrecep Tab 5mg",
+    "price": 15.58,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Bett Inj     0.5ml",
+    "price": 464.0,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Injection"
+  },
+  {
+    "name": "Bevon CD Cap",
+    "price": 406.07,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Bevon Drops     15ml",
+    "price": 394.11,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Eye/Ear Drops"
+  },
+  {
+    "name": "Bevon Softgel Cap",
+    "price": 448.71,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Bevon Syrup     200ml",
+    "price": 491.6,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Syrup"
+  },
+  {
+    "name": "Bexol DT Tab 2mg    1 x 100",
+    "price": 318.79,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Bexol Tab 2mg",
+    "price": 444.11,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Bgr 34 Tab     1x100",
+    "price": 93.47,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "BI Folate Syrup     100ml",
+    "price": 205.56,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Syrup"
+  },
+  {
+    "name": "Bifilac Cap",
+    "price": 95.9,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Bifilac Clausi Suspension 2billion    5ml",
+    "price": 406.0,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Bifilac Dry Syrup 30million    50ml",
+    "price": 246.89,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Syrup"
+  },
+  {
+    "name": "Bifilac GG Duo Sachet     1gm",
+    "price": 241.75,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Bifilac GG Sachet     0.75gm",
+    "price": 480.98,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Bifilac HP Cap",
+    "price": 313.46,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Bifilac Sachet 0.5gm",
+    "price": 117.1,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Bignac P Tab 100mg/325mg",
+    "price": 216.88,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Bignac SP Tab 100mg/325mg/15mg",
+    "price": 462.54,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Bigomet SR 1gm Tab",
+    "price": 49.7,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Bigomet SR Tab 500mg",
+    "price": 183.12,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Bigomet Tab 500mg",
+    "price": 333.67,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Bilafav M Tab 20mg/10mg",
+    "price": 117.29,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Bilagra M Tab 20mg/10mg",
+    "price": 237.35,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Bilagra M Tab 40mg/10mg",
+    "price": 335.4,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Bilanix Forte Tab 40mg",
+    "price": 114.98,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Bilanix Tab 20mg",
+    "price": 484.89,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Bilanol -M Tab 20mg/10mg",
+    "price": 86.21,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Bilashine M Tab 20mg/10mg",
+    "price": 261.24,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Bilashine Tab 20mg",
+    "price": 288.13,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Bilashine Tab 40mg",
+    "price": 465.5,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Bilast M Tab 20mg/10mg",
+    "price": 469.94,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Bilasure M Tab 20mg/10mg",
+    "price": 190.03,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Bilasure M Tab 40mg/10mg",
+    "price": 141.63,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Bilasure Tab 20mg",
+    "price": 201.93,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Bilasure Tab 40mg",
+    "price": 47.74,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Bilazap M Oral Susp     60ml",
+    "price": 324.14,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Bilazap M Tab 20mg/10mg",
+    "price": 98.15,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Bilazap Tab 20mg",
+    "price": 418.56,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Bilazest M Tab 20mg/10mg",
+    "price": 19.25,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Bilazest Tab 20mg",
+    "price": 445.09,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Bileace Tab 300mg",
+    "price": 276.11,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Bilovas Tab 40mg",
+    "price": 381.49,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Biluma Advance Face Wash     100ml",
+    "price": 460.44,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Personal Care"
+  },
+  {
+    "name": "Biluma Advance Lotion     45gm",
+    "price": 496.15,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Biluma Clarifying Serum     30ml",
+    "price": 440.95,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Biluma Cream     15gm",
+    "price": 391.48,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "Biluma Radiance Serum     30ml",
+    "price": 281.07,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Biluma Sunscreen SPF 50 Gel     50ml",
+    "price": 130.0,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "Bilypsa Tab 4mg",
+    "price": 485.23,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Bilypsa Tab 4mg    1x45",
+    "price": 201.69,
+    "manufacturer": "HealthGen Pharmaceuticals",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Bimat LS Eye Drops 0.1mg/0.005%W/V    3ml",
+    "price": 152.36,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Eye/Ear Drops"
+  },
+  {
+    "name": "Bio D3 Cap 0.25mcg",
+    "price": 378.11,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Bio D3 Fem Cap",
+    "price": 214.58,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Bio D3 Max Cap",
+    "price": 42.53,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Bio D3 Plus Cap",
+    "price": 336.89,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Bio D3 Strong Cap",
+    "price": 106.42,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Bioberg Ultra Tab",
+    "price": 418.35,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Biocellular Q10 Tab",
+    "price": 377.3,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Biocil-MPS Mint Flavour Suspension     170ml",
+    "price": 475.41,
+    "manufacturer": "Aurobindo Pharma",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Biocof BR Syrup     100ml",
+    "price": 375.7,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Syrup"
+  },
+  {
+    "name": "Biocoltis Tab",
+    "price": 333.78,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Biocutis Face Wash     100ml",
+    "price": 324.54,
+    "manufacturer": "Zydus Cadila",
+    "inStock": true,
+    "category": "Personal Care"
+  },
+  {
+    "name": "Biodens Pro Lotion     60ml",
+    "price": 104.72,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "General Medicine"
+  },
+  {
+    "name": "Biodens Tab",
+    "price": 305.43,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Bioderma Pigmentbio Sensitive Areas Cream     75ml",
+    "price": 261.53,
+    "manufacturer": "Sun Pharma",
+    "inStock": true,
+    "category": "Topical"
+  },
+  {
+    "name": "Biogluta Tab",
+    "price": 299.37,
+    "manufacturer": "Lupin",
+    "inStock": true,
+    "category": "Tablet"
+  },
+  {
+    "name": "Biomezole Cap 20mg",
+    "price": 436.67,
+    "manufacturer": "Dr. Reddy's",
+    "inStock": true,
+    "category": "Capsule"
+  },
+  {
+    "name": "Biomezole D Cap 20mg/10mg",
+    "price": 304.49,
+    "manufacturer": "Cipla Ltd",
+    "inStock": true,
+    "category": "Capsule"
+  }
+]

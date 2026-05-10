@@ -72,10 +72,14 @@ const orderSchema = new mongoose.Schema({
   },
   status: {
     type: String,
-    enum: ['pending', 'accepted', 'rejected', 'confirmed', 'shipped', 'out_for_delivery', 'delivered', 'cancelled', 'scheduled'],
+    enum: ['pending', 'accepted', 'rejected', 'confirmed', 'packing', 'waiting_for_rider', 'shipped', 'out_for_delivery', 'delivered', 'cancelled', 'scheduled'],
     default: 'pending'
   },
   scheduledAt: {
+    type: Date,
+    default: null
+  },
+  scheduledFor: {
     type: Date,
     default: null
   },

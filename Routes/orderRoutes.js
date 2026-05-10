@@ -45,6 +45,7 @@ router.post("/", verifyBuyer, upload.single("prescriptionImage"), orderControlle
 router.get("/", verifySeller, orderController.getOrders);
 router.get("/accepted", verifySeller, orderController.getAcceptedOrders);
 router.get("/buyer/:buyerId", verifyBuyer, orderController.getOrdersByBuyer);
+router.get("/buyer/:buyerId/stats", verifyBuyer, orderController.getBuyerOrderStats);
 router.get("/scheduled", verifySeller, orderController.getScheduledOrders);
 
 router.patch("/:orderId/cancel", verifyBuyer, orderController.cancelOrder);

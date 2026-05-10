@@ -285,7 +285,7 @@ exports.getAcceptedOrders = async (req, res) => {
   try {
     console.log("📥 Fetching accepted orders...");
     const orders = await Order.find({
-      status: { $in: ["accepted", "shipped", "out_for_delivery"] },
+      status: { $in: ["accepted", "packing", "waiting_for_rider", "shipped", "out_for_delivery"] },
       seller: req.seller.id
     })
       .populate('buyerId', 'name mobile address')
@@ -294,7 +294,7 @@ exports.getAcceptedOrders = async (req, res) => {
     console.log(`✅ Found ${orders.length} orders`);
     res.status(200).json(orders);
   } catch (error) {
-    console.error("❌ Error in getOrders:", error);
+    console.error("❌ Error in getAcceptedOrders:", error);
     res.status(500).json({ message: "Internal server error" });
   }
 };
@@ -386,7 +386,8 @@ exports.getOrderById = async (req, res) => {
 exports.scheduleOrder = async (req, res) => {
   try {
     const { orderId } = req.params;
-    console.log(`📥 Scheduling order: ${orderId}`);
+    const { scheduledFor } = req.body;
+    console.log(`📥 Scheduling order: ${orderId}`, scheduledFor ? `for ${scheduledFor}` : 'immediately');
 
     const order = await Order.findById(orderId)
       .populate('buyerId', 'name mobile address')
@@ -402,14 +403,33 @@ exports.scheduleOrder = async (req, res) => {
       });
     }
 
+    // Validate scheduledFor date if provided
+    if (scheduledFor) {
+      const scheduledDate = new Date(scheduledFor);
+      const now = new Date();
+      const maxDate = new Date(now.getTime() + 7 * 24 * 60 * 60 * 1000); // 7 days from now
+
+      if (isNaN(scheduledDate.getTime())) {
+        return res.status(400).json({ success: false, message: "Invalid date format" });
+      }
+      if (scheduledDate < now) {
+        return res.status(400).json({ success: false, message: "Scheduled date must be in the future" });
+      }
+      if (scheduledDate > maxDate) {
+        return res.status(400).json({ success: false, message: "Cannot schedule more than 7 days in advance" });
+      }
+
+      order.scheduledFor = scheduledDate;
+    }
+
     order.status = 'scheduled';
     order.scheduledAt = new Date();
     await order.save();
 
-    console.log("✅ Order scheduled successfully");
+    console.log("✅ Order scheduled successfully", scheduledFor ? `for ${order.scheduledFor}` : '');
     res.status(200).json({ 
       success: true, 
-      message: "Order scheduled for later", 
+      message: scheduledFor ? `Order scheduled for ${new Date(scheduledFor).toLocaleString()}` : "Order scheduled for later", 
       order 
     });
   } catch (error) {
@@ -447,12 +467,14 @@ exports.updateOrderStatus = async (req, res) => {
     const io = req.app.get("io");
 
     const transitions = {
-      accepted: ["shipped"],
-      shipped: ["out_for_delivery"],
+      accepted: ["packing"],
+      packing: ["waiting_for_rider"],
+      waiting_for_rider: ["out_for_delivery"],
       out_for_delivery: ["delivered"],
     };
 
-    if (!["shipped", "out_for_delivery", "delivered"].includes(status)) {
+    const validStatuses = ["packing", "waiting_for_rider", "out_for_delivery", "delivered"];
+    if (!validStatuses.includes(status)) {
       return res.status(400).json({ success: false, message: "Invalid status update" });
     }
 
@@ -483,7 +505,8 @@ exports.updateOrderStatus = async (req, res) => {
     await order.save();
 
     if (io) {
-      io.to(`buyer_${order.buyerId}`).emit("orderResponse", {
+      const buyerId = order.buyerId?._id || order.buyerId;
+      io.to(`buyer_${buyerId}`).emit("orderResponse", {
         orderId,
         status,
         sellerId,
@@ -570,7 +593,7 @@ exports.sellerRespondToOrder = async (req, res) => {
 
     // Notify buyer
     if (io) {
-      const buyerId = order.buyerId || order.buyer;
+      const buyerId = order.buyerId?._id || order.buyerId || order.buyer;
       io.to(`buyer_${buyerId}`).emit("orderResponse", {
         orderId,
         status: order.status,
@@ -594,10 +617,57 @@ exports.sellerRespondToOrder = async (req, res) => {
   }
 };
 
+// -------------------------------------------------------------------
+// Get buyer order statistics (replaces mock stats in frontend)
+// -------------------------------------------------------------------
+exports.getBuyerOrderStats = async (req, res) => {
+  try {
+    const buyerId = req.params.buyerId;
+    console.log(`Fetching order stats for buyer: ${buyerId}`);
 
+    const mongoose = require('mongoose');
+    const buyerObjectId = new mongoose.Types.ObjectId(buyerId);
 
+    const stats = await Order.aggregate([
+      { $match: { buyerId: buyerObjectId } },
+      {
+        $group: {
+          _id: null,
+          totalOrders: { $sum: 1 },
+          completedOrders: {
+            $sum: { $cond: [{ $eq: ["$status", "delivered"] }, 1, 0] }
+          },
+          pendingOrders: {
+            $sum: {
+              $cond: [
+                { $in: ["$status", ["pending", "accepted", "packing", "waiting_for_rider", "out_for_delivery", "scheduled"]] },
+                1,
+                0
+              ]
+            }
+          },
+          cancelledOrders: {
+            $sum: { $cond: [{ $in: ["$status", ["cancelled", "rejected"]] }, 1, 0] }
+          },
+          totalSpent: {
+            $sum: {
+              $cond: [{ $eq: ["$status", "delivered"] }, "$totalAmount", 0]
+            }
+          }
+        }
+      }
+    ]);
 
+    const result = stats.length > 0
+      ? stats[0]
+      : { totalOrders: 0, completedOrders: 0, pendingOrders: 0, cancelledOrders: 0, totalSpent: 0 };
 
+    delete result._id;
 
-
-
+    console.log("Buyer stats:", result);
+    res.status(200).json({ success: true, stats: result });
+  } catch (error) {
+    console.error("Error in getBuyerOrderStats:", error);
+    res.status(500).json({ success: false, message: "Internal server error" });
+  }
+};
