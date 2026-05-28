@@ -55,6 +55,10 @@ const orderSchema = new mongoose.Schema({
     type: String,
     default: null
   },
+  prescriptionImages: {
+    type: [String],
+    default: []
+  },
   location: {
     type: {
       type: String,

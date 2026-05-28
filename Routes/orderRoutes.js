@@ -36,11 +36,19 @@ const upload = multer({
   storage,
   fileFilter,
   limits: {
-    fileSize: 5 * 1024 * 1024,
+    fileSize: 20 * 1024 * 1024,
   },
 });
 
-router.post("/", verifyBuyer, upload.single("prescriptionImage"), orderController.createOrder);
+router.post(
+  "/",
+  verifyBuyer,
+  upload.fields([
+    { name: "prescriptionImages", maxCount: 10 },
+    { name: "prescriptionImage", maxCount: 1 },
+  ]),
+  orderController.createOrder
+);
 
 router.get("/", verifySeller, orderController.getOrders);
 router.get("/accepted", verifySeller, orderController.getAcceptedOrders);
@@ -52,6 +60,8 @@ router.patch("/:orderId/cancel", verifyBuyer, orderController.cancelOrder);
 router.patch("/:orderId/schedule", verifyBuyer, orderController.scheduleOrder);
 router.patch("/:orderId/respond", verifySeller, orderController.sellerRespondToOrder);
 router.patch("/:orderId/status", verifySeller, orderController.updateOrderStatus);
+
+router.get("/matching-options", verifyToken, orderController.getMatchingOptions);
 
 router.get("/:orderId", verifyToken, orderController.getOrderById);
 

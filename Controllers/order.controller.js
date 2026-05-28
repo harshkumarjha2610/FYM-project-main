@@ -38,12 +38,12 @@ const options = [
   { r: 5000, discount: [15, 20] },
   { r: 2000, discount: [10, 12, 15, 20] },
   { r: 5000, discount: [10, 12, 15, 20] },
-  { r: 7000, discount: [0] },
-  { r: 200000, discount: [0, 5, 10, 12, 15, 20] },
+  { r: 7000, discount: [0, 5, 10, 12, 15, 20] },
+  { r: 20000, discount: [0, 5, 10, 12, 15, 20] },
 ];
 
 // Interval (in ms) between each notifySellers tier
-const TIER_INTERVAL_MS = 70 * 1000;
+const TIER_INTERVAL_MS = 60000;
 
 // Haversine formula: returns distance in meters between two lat/lng pairs
 function haversineDistance(lat1, lon1, lat2, lon2) {
@@ -118,7 +118,8 @@ exports.createOrder = async (req, res) => {
     mimetype: req.file.mimetype,
     size: req.file.size,
     path: req.file.path
-  } : "No file uploaded");
+  } : null);
+  console.log("📸 req.files:", req.files ? req.files : "No files uploaded");
   console.log("📦 req.body:", req.body);
 
   try {
@@ -157,13 +158,26 @@ exports.createOrder = async (req, res) => {
       return res.status(400).json({ message: "Location coordinates are required" });
     }
 
-    // ✅ CRITICAL FIX: Construct proper URL for prescription image
-    let prescriptionImageUrl = null;
+    // ✅ Support multiple prescription files
+    const prescriptionFiles = [];
+
+    if (req.files) {
+      if (Array.isArray(req.files.prescriptionImages)) {
+        prescriptionFiles.push(...req.files.prescriptionImages);
+      }
+      if (Array.isArray(req.files.prescriptionImage)) {
+        prescriptionFiles.push(...req.files.prescriptionImage);
+      }
+    }
 
     if (req.file) {
-      // Store just the relative path - let frontend construct full URL
-      prescriptionImageUrl = `/uploads/${req.file.filename}`;
-      console.log("🖼️ Prescription Image stored as:", prescriptionImageUrl);
+      prescriptionFiles.push(req.file);
+    }
+
+    const prescriptionImageUrls = prescriptionFiles.map((file) => `/uploads/${file.filename}`);
+
+    if (prescriptionImageUrls.length > 0) {
+      console.log("🖼️ Prescription images stored as:", prescriptionImageUrls);
     } else {
       console.log("⚠️ No prescription image uploaded");
     }
@@ -175,7 +189,8 @@ exports.createOrder = async (req, res) => {
       buyerId,
       items,
       totalAmount: Number(totalAmount),
-      prescriptionImage: prescriptionImageUrl,
+      prescriptionImage: prescriptionImageUrls[0] || null,
+      prescriptionImages: prescriptionImageUrls,
       deliveryAddress: deliveryAddress || req.body.deliveryAddress,
       location: {
         type: "Point",
@@ -232,11 +247,12 @@ exports.getOrders = async (req, res) => {
 
     console.log(`📥 Fetching filtered orders for seller: ${seller.pharmacyName} (discount: ${sellerDiscount}%)`);
 
-    // Fetch only pending orders from the last 10 minutes, excluding orders this seller already rejected
-    const tenMinutesAgo = new Date(Date.now() - 10 * 60 * 1000);
+        const SIX_MINUTES_MS = 6 * 60 * 1000;
+    // Fetch only pending orders from the last 6 minutes, excluding orders this seller already rejected
+    const sixMinutesAgo = new Date(Date.now() - SIX_MINUTES_MS);
     const pendingOrders = await Order.find({
       status: "pending",
-      createdAt: { $gte: tenMinutesAgo },
+      createdAt: { $gte: sixMinutesAgo },
       rejectedBy: { $nin: [seller._id] },
     })
     .populate('buyerId', 'name mobile address')
@@ -668,6 +684,15 @@ exports.getBuyerOrderStats = async (req, res) => {
     res.status(200).json({ success: true, stats: result });
   } catch (error) {
     console.error("Error in getBuyerOrderStats:", error);
+    res.status(500).json({ success: false, message: "Internal server error" });
+  }
+};
+
+exports.getMatchingOptions = async (req, res) => {
+  try {
+    res.status(200).json({ success: true, options });
+  } catch (error) {
+    console.error("Error in getMatchingOptions:", error);
     res.status(500).json({ success: false, message: "Internal server error" });
   }
 };
