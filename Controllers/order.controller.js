@@ -34,16 +34,18 @@ const Seller = require("../Models/seller.model.js");
 // }
 
 const options = [
+  { r: 2000, discount: [20] },
   { r: 2000, discount: [15, 20] },
-  { r: 5000, discount: [15, 20] },
-  { r: 2000, discount: [10, 12, 15, 20] },
+  { r: 3000, discount: [10, 12, 15, 20] },
+  { r: 5000, discount: [0, 5, 10, 12, 15, 20] },
   { r: 5000, discount: [10, 12, 15, 20] },
-  { r: 7000, discount: [0, 5, 10, 12, 15, 20] },
-  { r: 20000, discount: [0, 5, 10, 12, 15, 20] },
 ];
 
 // Interval (in ms) between each notifySellers tier
 const TIER_INTERVAL_MS = 60000;
+
+// Buyer-side timeout (5 minutes) – sellers must see the same countdown
+const BUYER_TIMEOUT_MS = 5 * 60 * 1000;
 
 // Haversine formula: returns distance in meters between two lat/lng pairs
 function haversineDistance(lat1, lon1, lat2, lon2) {
@@ -82,12 +84,20 @@ async function notifySellers(order, longitude, latitude, io) {
 
       const now = new Date();
       console.log(`Time: ${now}, Radius: ${option.r}m, Discounts: ${option.discount}`);
-      for(const seller of sellers){
+      for (const seller of sellers) {
         console.log("Seller: ", { name: seller.pharmacyName, discount: seller.discount });
       }
 
+      // Calculate how much time the buyer still has left
+      const elapsed = Date.now() - new Date(order.createdAt).getTime();
+      const timeRemaining = Math.max(0, BUYER_TIMEOUT_MS - elapsed);
+      console.log("timeRemaining: ", timeRemaining);
+
       sellers.forEach(s => {
-        io.to(`seller_${s._id}`).emit("newOrder", order);
+        io.to(`seller_${s._id}`).emit("newOrder", {
+          ...order.toObject ? order.toObject() : order,
+          timeRemaining,
+        });
       });
 
       await new Promise(resolve => setTimeout(resolve, TIER_INTERVAL_MS));
@@ -124,7 +134,7 @@ exports.createOrder = async (req, res) => {
 
   try {
     const { totalAmount, deliveryAddress } = req.body;
-    
+
     // ✅ Use authenticated buyer ID from middleware (fallback to body ID if absolutely necessary)
     const buyerId = req.buyer?.id || req.body.buyerId;
     console.log("👤 Resolved Buyer ID:", buyerId);
@@ -222,7 +232,7 @@ exports.createOrder = async (req, res) => {
 
   } catch (err) {
     console.error("❌ createOrder error:", err);
-    res.status(500).json({ 
+    res.status(500).json({
       success: false,
       message: "Internal server error",
       error: process.env.NODE_ENV === 'development' ? err.message : undefined
@@ -247,16 +257,16 @@ exports.getOrders = async (req, res) => {
 
     console.log(`📥 Fetching filtered orders for seller: ${seller.pharmacyName} (discount: ${sellerDiscount}%)`);
 
-        const SIX_MINUTES_MS = 6 * 60 * 1000;
-    // Fetch only pending orders from the last 6 minutes, excluding orders this seller already rejected
-    const sixMinutesAgo = new Date(Date.now() - SIX_MINUTES_MS);
+    // Use buyer timeout + 1 min buffer for the DB query window
+    const QUERY_WINDOW_MS = BUYER_TIMEOUT_MS + 60 * 1000;
+    const queryWindowAgo = new Date(Date.now() - QUERY_WINDOW_MS);
     const pendingOrders = await Order.find({
       status: "pending",
-      createdAt: { $gte: sixMinutesAgo },
+      createdAt: { $gte: queryWindowAgo },
       rejectedBy: { $nin: [seller._id] },
     })
-    .populate('buyerId', 'name mobile address')
-    .sort({ createdAt: -1 });
+      .populate('buyerId', 'name mobile address')
+      .sort({ createdAt: -1 });
 
     const now = Date.now();
 
@@ -290,7 +300,16 @@ exports.getOrders = async (req, res) => {
     });
 
     console.log(`✅ ${filtered.length}/${pendingOrders.length} orders match seller's radius/discount`);
-    res.status(200).json(filtered);
+
+    // Attach timeRemaining so the seller frontend can sync with the buyer's countdown
+    const withTimeRemaining = filtered.map((order) => {
+      const elapsed = now - new Date(order.createdAt).getTime();
+      const timeRemaining = Math.max(0, BUYER_TIMEOUT_MS - elapsed);
+      const orderObj = order.toObject ? order.toObject() : order;
+      return { ...orderObj, timeRemaining };
+    });
+
+    res.status(200).json(withTimeRemaining);
   } catch (error) {
     console.error("❌ Error in getOrders:", error);
     res.status(500).json({ message: "Internal server error" });
@@ -340,32 +359,32 @@ exports.cancelOrder = async (req, res) => {
   try {
     const { orderId } = req.params;
     console.log(`📥 Cancelling order: ${orderId}`);
-    
+
     const order = await Order.findById(orderId)
       .populate('buyerId', 'name mobile address')
       .populate('seller', 'pharmacyName address phone ownerContact number email');
-    
+
     if (!order) {
       console.log("⚠️ Order not found");
       return res.status(404).json({ success: false, message: "Order not found" });
     }
-    
+
     if (order.status !== 'pending') {
       console.log(`❌ Cannot cancel order in ${order.status} status`);
-      return res.status(400).json({ 
-        success: false, 
-        message: `Cannot cancel order in ${order.status} status` 
+      return res.status(400).json({
+        success: false,
+        message: `Cannot cancel order in ${order.status} status`
       });
     }
-    
+
     order.status = 'cancelled';
     await order.save();
-    
+
     console.log("✅ Order cancelled successfully");
-    res.status(200).json({ 
-      success: true, 
-      message: "Order cancelled successfully", 
-      order 
+    res.status(200).json({
+      success: true,
+      message: "Order cancelled successfully",
+      order
     });
   } catch (error) {
     console.error('❌ Error in cancelOrder:', error);
@@ -413,9 +432,9 @@ exports.scheduleOrder = async (req, res) => {
     }
 
     if (order.status !== 'pending') {
-      return res.status(400).json({ 
-        success: false, 
-        message: `Order cannot be scheduled from ${order.status} status` 
+      return res.status(400).json({
+        success: false,
+        message: `Order cannot be scheduled from ${order.status} status`
       });
     }
 
@@ -443,10 +462,10 @@ exports.scheduleOrder = async (req, res) => {
     await order.save();
 
     console.log("✅ Order scheduled successfully", scheduledFor ? `for ${order.scheduledFor}` : '');
-    res.status(200).json({ 
-      success: true, 
-      message: scheduledFor ? `Order scheduled for ${new Date(scheduledFor).toLocaleString()}` : "Order scheduled for later", 
-      order 
+    res.status(200).json({
+      success: true,
+      message: scheduledFor ? `Order scheduled for ${new Date(scheduledFor).toLocaleString()}` : "Order scheduled for later",
+      order
     });
   } catch (error) {
     console.error('❌ Error in scheduleOrder:', error);
@@ -463,7 +482,7 @@ exports.getScheduledOrders = async (req, res) => {
     const orders = await Order.find({ status: "scheduled" })
       .populate('buyerId', 'name mobile address')
       .sort({ scheduledAt: -1 });
-    
+
     console.log(`✅ Found ${orders.length} scheduled orders`);
     res.status(200).json(orders);
   } catch (error) {
@@ -548,39 +567,39 @@ exports.sellerRespondToOrder = async (req, res) => {
     console.log('\n📦 ========================================');
     console.log('📦 SELLER RESPOND TO ORDER');
     console.log('📦 ========================================');
-    
+
     const { orderId } = req.params;
     const { action, status } = req.body;
     const io = req.app.get("io");
 
     const sellerId = req.seller?.sellerId || req.seller?.id || req.body.sellerId;
-    
+
     console.log('🔍 Seller ID:', sellerId);
 
     if (!sellerId) {
-      return res.status(401).json({ 
+      return res.status(401).json({
         success: false,
-        message: "Authentication required - no seller ID" 
+        message: "Authentication required - no seller ID"
       });
     }
 
     const finalAction = action || (status === 'accepted' ? 'accept' : status === 'rejected' ? 'reject' : null);
-    
+
     if (!finalAction || !["accept", "reject"].includes(finalAction)) {
-      return res.status(400).json({ 
+      return res.status(400).json({
         success: false,
-        message: "Invalid action. Expected 'accept' or 'reject'" 
+        message: "Invalid action. Expected 'accept' or 'reject'"
       });
     }
 
     const order = await Order.findById(orderId)
       .populate('buyerId', 'name mobile address')
       .populate('seller', 'pharmacyName address phone ownerContact number email');
-    
+
     if (!order) {
-      return res.status(404).json({ 
+      return res.status(404).json({
         success: false,
-        message: "Order not found" 
+        message: "Order not found"
       });
     }
 
@@ -602,7 +621,7 @@ exports.sellerRespondToOrder = async (req, res) => {
       if (!order.rejectedBy) order.rejectedBy = [];
       order.rejectedBy.push(sellerId);
     }
-    
+
     await order.save();
 
     console.log(`✅ Order ${orderId} ${finalAction === 'accept' ? 'accepted' : 'rejected by seller ' + sellerId}`);
@@ -618,15 +637,15 @@ exports.sellerRespondToOrder = async (req, res) => {
       });
     }
 
-    res.status(200).json({ 
+    res.status(200).json({
       success: true,
-      message: `Order ${finalAction === 'accept' ? 'accepted' : 'rejected'} successfully`, 
+      message: `Order ${finalAction === 'accept' ? 'accepted' : 'rejected'} successfully`,
       order: order
     });
 
   } catch (error) {
     console.error('❌ ERROR IN SELLER RESPOND:', error);
-    res.status(500).json({ 
+    res.status(500).json({
       success: false,
       message: "Internal server error"
     });
