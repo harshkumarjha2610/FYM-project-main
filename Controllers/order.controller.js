@@ -64,7 +64,16 @@ async function notifySellers(order, longitude, latitude, io) {
   try {
     for (const option of options) {
       const freshOrder = await Order.findById(order._id);
-      if (freshOrder.status === "accepted") break;
+      if (!freshOrder || freshOrder.status === "accepted") break;
+
+      // Calculate how much time the buyer still has left
+      const elapsed = Date.now() - new Date(order.createdAt).getTime();
+      if (elapsed >= BUYER_TIMEOUT_MS) {
+        console.log(`⏱️ Order ${order._id} expired during notification loop.`);
+        break;
+      }
+      const timeRemaining = Math.max(0, BUYER_TIMEOUT_MS - elapsed);
+      console.log("timeRemaining: ", timeRemaining);
 
       const query = {
         location: {
@@ -88,12 +97,13 @@ async function notifySellers(order, longitude, latitude, io) {
         console.log("Seller: ", { name: seller.pharmacyName, discount: seller.discount });
       }
 
-      // Calculate how much time the buyer still has left
-      const elapsed = Date.now() - new Date(order.createdAt).getTime();
-      const timeRemaining = Math.max(0, BUYER_TIMEOUT_MS - elapsed);
-      console.log("timeRemaining: ", timeRemaining);
+      // Filter out sellers who have already rejected this order
+      const activeSellers = sellers.filter(s => {
+        const rejectedBy = freshOrder.rejectedBy || [];
+        return !rejectedBy.some(rejectedId => rejectedId.toString() === s._id.toString());
+      });
 
-      sellers.forEach(s => {
+      activeSellers.forEach(s => {
         io.to(`seller_${s._id}`).emit("newOrder", {
           ...order.toObject ? order.toObject() : order,
           timeRemaining,
@@ -275,10 +285,12 @@ exports.getOrders = async (req, res) => {
     const filtered = pendingOrders.filter((order) => {
       if (!order.location || !order.location.coordinates) return false;
 
+      const elapsed = now - new Date(order.createdAt).getTime();
+      if (elapsed >= BUYER_TIMEOUT_MS) return false; // Skip expired orders
+
       const [orderLng, orderLat] = order.location.coordinates;
       const dist = haversineDistance(orderLat, orderLng, sellerLat, sellerLng);
 
-      const elapsed = now - new Date(order.createdAt).getTime();
       const tierIndex = Math.min(
         Math.floor(elapsed / TIER_INTERVAL_MS),
         options.length - 1
@@ -629,10 +641,18 @@ exports.sellerRespondToOrder = async (req, res) => {
     // Notify buyer
     if (io) {
       const buyerId = order.buyerId?._id || order.buyerId || order.buyer;
+      let pharmacyName = null;
+      if (finalAction === "accept") {
+        const sellerObj = await Seller.findById(sellerId);
+        if (sellerObj) {
+          pharmacyName = sellerObj.pharmacyName;
+        }
+      }
       io.to(`buyer_${buyerId}`).emit("orderResponse", {
         orderId,
         status: order.status,
         sellerId: sellerId,
+        pharmacyName: pharmacyName,
         timestamp: new Date()
       });
     }
