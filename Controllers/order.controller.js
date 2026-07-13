@@ -641,10 +641,18 @@ exports.sellerRespondToOrder = async (req, res) => {
     // Notify buyer
     if (io) {
       const buyerId = order.buyerId?._id || order.buyerId || order.buyer;
+      let pharmacyName = null;
+      if (finalAction === "accept") {
+        const sellerObj = await Seller.findById(sellerId);
+        if (sellerObj) {
+          pharmacyName = sellerObj.pharmacyName;
+        }
+      }
       io.to(`buyer_${buyerId}`).emit("orderResponse", {
         orderId,
         status: order.status,
         sellerId: sellerId,
+        pharmacyName: pharmacyName,
         timestamp: new Date()
       });
     }
